@@ -15,9 +15,9 @@ python -m spacy download en_core_web_sm
 We provide a human-annotated evaluation benchmark including 9,218 column names on 895 tables. [Link (TBA)]
 
 ### Evaluation Scripts
-"""
+```
 python run_eval.py --model_name gpt-4
-"""
+```
 
 ### Cite
 Please cite the paper if you use the codebase in your work:
