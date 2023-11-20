@@ -36,12 +36,20 @@ if __name__ == "__main__":
     parser.add_argument(
         "--model_name", type=str, required=True, choices=["gpt-3.5-turbo", "gpt-4"]
     )
-    parser.add_argument("--test_file", type=str, default="sampled_eval.json")
+    parser.add_argument("--test_file_sf", type=str, default="eval_sf.json")
+    parser.add_argument("--test_file_chicago", type=str, default="eval_chicago.json")
+    parser.add_argument("--test_file_la", type=str, default="eval_la.json")
     args = parser.parse_args()
     DATA_NAME = "nameGuess"
 
-    # read the data
-    label_dict_l = json.load(open(os.path.join("data", args.test_file), "r"))
+    def load_data(file_name):
+        return json.load(open(os.path.join("data", file_name), "r"))
+
+    data_sf = load_data(args.test_file_sf)
+    data_chicago = load_data(args.test_file_chicago)
+    data_la = load_data(args.test_file_la)
+
+    label_dict_l = data_sf + data_chicago + data_la
     num_examples = sum([len(ele["gt_label"]) for ele in label_dict_l])
     print("num_examples:", num_examples)
 
