@@ -2,4 +2,3 @@ openai
 transformers
 evaluate
 spacy
-wordninja
