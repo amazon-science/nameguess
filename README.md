@@ -11,6 +11,21 @@ conda activate nameguess
 python -m spacy download en_core_web_sm
 ```
 
+### Training Data Creation
+Scripts for two key compoenents in the training data creation.
+
+#### Logical Name Identification
+Example
+```
+python src/cryptic_identifier.py --text "nycpolicedepartment"
+```
+
+#### Abbreviation Generation
+Example
+```
+python src/cryptic_generator.py --text "customer name"
+```
+
 ### Benchmarks
 We provide a human-annotated evaluation benchmark including 9,218 column names on 895 tables. [Link (TBA)]
 
