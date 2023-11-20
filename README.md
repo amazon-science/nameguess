@@ -27,7 +27,7 @@ python src/cryptic_generator.py --text "customer name"
 ```
 
 ### Benchmarks
-We provide a human-annotated evaluation benchmark including 9,218 column names on 895 tables. [Link (TBA)]
+We provide a human-annotated evaluation benchmark including 9,218 column names on 895 tables. [Link](./data/)
 
 ### Evaluation Scripts
 ```
@@ -52,4 +52,5 @@ See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more inform
 ### License
 
 This project is licensed under the Apache-2.0 License.
+
 
