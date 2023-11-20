@@ -1,0 +1,2408 @@
+[
+  {
+    "table_partition": "la_opendata",
+    "table_id": "pggv-e4fn",
+    "table_prompt": "column names : Fund, Currncy, SalesTx, trsnctn_id, discnt, FundGrpNm, idNum, SalesTxPc, departmnt_nm, siteLoc\nrow 1 : 820, USD, 16.53, AD26220000068171, 52.86, GOVERNMENTAL, 8012890, 9.5, BUILDING AND SAFETY, LOS ANGELES\n",
+    "query": "As abbreviations of column names from a table, Fund | Currncy | SalesTx | trsnctn_id | discnt | FundGrpNm | idNum | SalesTxPc | departmnt_nm | siteLoc stand for",
+    "gt_label": [
+      "fund",
+      "CURRENCY",
+      "Sales Tax",
+      "Transaction ID",
+      "Discount",
+      "FUND GROUP NAME",
+      "ID NUMBER",
+      "SALES TAX PERCENT",
+      "department name",
+      "site location"
+    ],
+    "technical_name": [
+      "Fund",
+      "Currncy",
+      "SalesTx",
+      "trsnctn_id",
+      "discnt",
+      "FundGrpNm",
+      "idNum",
+      "SalesTxPc",
+      "departmnt_nm",
+      "siteLoc"
+    ],
+    "difficulty": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "pggv-e4fn",
+    "table_prompt": "column names : dta_src, prgm, fnd_nm, Auth, auth_nm, cld_mth, dept_nm, desc, det_itm_desc, QTY\nrow 1 : FMS, FAMILY CAREGIVER SER..., BLDG & SAFETY PERMIT..., BAB1269, BAB1903, MAY, 8, TO ENCUMBER FUNDS FO..., TO PAY FOR PROPERTY ..., 0.68\n",
+    "query": "As abbreviations of column names from a table, dta_src | prgm | fnd_nm | Auth | auth_nm | cld_mth | dept_nm | desc | det_itm_desc | QTY stand for",
+    "gt_label": [
+      "Data Source",
+      "Program",
+      "fund name",
+      "Authority",
+      "Authority Name",
+      "CALENDAR MONTH",
+      "DEPARTMENT NUMBER",
+      "DESCRIPTION",
+      "Detailed Item Description",
+      "quantity"
+    ],
+    "technical_name": [
+      "dta_src",
+      "prgm",
+      "fnd_nm",
+      "Auth",
+      "auth_nm",
+      "cld_mth",
+      "dept_nm",
+      "desc",
+      "det_itm_desc",
+      "QTY"
+    ],
+    "difficulty": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "pggv-e4fn",
+    "table_prompt": "column names : accntCd, accntNm, bsns_tax_registrCert, cldrMnthNum, clndMnthYr, DollrAmt, expndTyp, FiscMthNo, FiscaYrMth, fisclYr\nrow 1 : 02VQB2, OFFICE AND ADMINISTR..., 563835, 5, MAY,2022, 35.45, SP BLDG & SAFETY SER..., 11, 2022-11 (MAY), 2022\n",
+    "query": "As abbreviations of column names from a table, accntCd | accntNm | bsns_tax_registrCert | cldrMnthNum | clndMnthYr | DollrAmt | expndTyp | FiscMthNo | FiscaYrMth | fisclYr stand for",
+    "gt_label": [
+      "ACCOUNT CODE",
+      "Account Name",
+      "Business Tax Registration Certificate",
+      "Calendar Month Number",
+      "Calendar Month Year",
+      "Dollar Amount",
+      "Expenditure Type",
+      "FISCAL MONTH NUMBER",
+      "FISCAL YEAR MONTH",
+      "Fiscal Year"
+    ],
+    "technical_name": [
+      "accntCd",
+      "accntNm",
+      "bsns_tax_registrCert",
+      "cldrMnthNum",
+      "clndMnthYr",
+      "DollrAmt",
+      "expndTyp",
+      "FiscMthNo",
+      "FiscaYrMth",
+      "fisclYr"
+    ],
+    "difficulty": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "pggv-e4fn",
+    "table_prompt": "column names : invcDistrLn, PaymtMthd, rcvrID, SupplrCty, valueOfSpnd, BuyrNm, FiscYrQrtr, gvnmntAct, paymnStat, procrmntOrg\nrow 1 : 103, CHECK, 220000104502, RIVERSIDE, 73.67, 9845.0, 2022-04, PROTECTION OF PERSON..., CANCELLED, CITY\n",
+    "query": "As abbreviations of column names from a table, invcDistrLn | PaymtMthd | rcvrID | SupplrCty | valueOfSpnd | BuyrNm | FiscYrQrtr | gvnmntAct | paymnStat | procrmntOrg stand for",
+    "gt_label": [
+      "Invoice Distribution Line",
+      "Payment Method",
+      "Receiver ID",
+      "Supplier City",
+      "VALUE OF SPEND",
+      "buyer name",
+      "fiscal year quarter",
+      "government activity",
+      "payment status",
+      "procurement organization"
+    ],
+    "technical_name": [
+      "invcDistrLn",
+      "PaymtMthd",
+      "rcvrID",
+      "SupplrCty",
+      "valueOfSpnd",
+      "BuyrNm",
+      "FiscYrQrtr",
+      "gvnmntAct",
+      "paymnStat",
+      "procrmntOrg"
+    ],
+    "difficulty": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "pggv-e4fn",
+    "table_prompt": "column names : SupplrCount, transctnDt, fundtp, ItmCDNm, ItmCD, UnPx\nrow 1 : US, 2022-05-10T00:00:00...., GENERAL FUND, MICROFILM, 441031030037.0, 20.13\n",
+    "query": "As abbreviations of column names from a table, SupplrCount | transctnDt | fundtp | ItmCDNm | ItmCD | UnPx stand for",
+    "gt_label": [
+      "supplier country",
+      "transaction date",
+      "FUND TYPE",
+      "ITEM CODE NAME",
+      "Item Code",
+      "Unit Price"
+    ],
+    "technical_name": [
+      "SupplrCount",
+      "transctnDt",
+      "fundtp",
+      "ItmCDNm",
+      "ItmCD",
+      "UnPx"
+    ],
+    "difficulty": [
+      2,
+      2,
+      3,
+      3,
+      3,
+      3
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "63dj-e5q6",
+    "table_prompt": "column names : debtCap, TP11, typ21\nrow 1 : 258296969.4, Non-Voter Cap, Voter Approved\nrow 2 : 258296969.4, Total Debt Cap, Non-Voter approved\n",
+    "query": "As abbreviations of column names from a table, debtCap | TP11 | typ21 stand for",
+    "gt_label": [
+      "DEBT CAP",
+      "type 11",
+      "TYPE 21"
+    ],
+    "technical_name": [
+      "debtCap",
+      "TP11",
+      "typ21"
+    ],
+    "difficulty": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "pazn-qyym",
+    "table_prompt": "column names : rowId, BsePay, employmnt_typ, job_cls, lump_sm_pay, othr_pay_payrll_expl, ovrtm_pay, pay_grd, job_cls_lnk, avg_bsc_life\nrow 1 : 8-3442813314ctFu, 167869.6, Part Time, 2500, 3268.8, -1361.76, 46851.1, 4, {'url': 'https://per..., 6.72\nrow 2 : 8-3170956596ctFu, 134150.76, Full Time, 3585, 458.18, 726.72, 33867.56, 5, {'url': 'https://per..., 1.4\n",
+    "query": "As abbreviations of column names from a table, rowId | BsePay | employmnt_typ | job_cls | lump_sm_pay | othr_pay_payrll_expl | ovrtm_pay | pay_grd | job_cls_lnk | avg_bsc_life stand for",
+    "gt_label": [
+      "ROW ID",
+      "Base Pay",
+      "Employment Type",
+      "JOB CLASS",
+      "LUMP SUM PAY",
+      "Other Pay Payroll Explorer",
+      "Overtime Pay",
+      "Pay Grade",
+      "job class link",
+      "Average Basic Life"
+    ],
+    "technical_name": [
+      "rowId",
+      "BsePay",
+      "employmnt_typ",
+      "job_cls",
+      "lump_sm_pay",
+      "othr_pay_payrll_expl",
+      "ovrtm_pay",
+      "pay_grd",
+      "job_cls_lnk",
+      "avg_bsc_life"
+    ],
+    "difficulty": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "pazn-qyym",
+    "table_prompt": "column names : permBonsPay, TempBonsPay, avg_bnft_cost, av_health_cst, JobClTtl, payrll_dept, rcd_nr, avDentlCst, hrly_evt_rte, LongvtyBonsPay\nrow 1 : 8011.94, 30898.08, 6814.56, 5566.26, Fiscal Systems Speci..., 302, 418946202, 159.41, 71.56, 2600.48\nrow 2 : 6779.47, 5200.0, 15702.96, 16460.18, Executive Administra..., 101, 2471547681, 245.3, 89.56, 3397.71\nrow 3 : 4081.84, 3393.3, 14661.6, 14619.63, Electrician, 301, 2099050563, 66.9, 55.22, 3308.15\n",
+    "query": "As abbreviations of column names from a table, permBonsPay | TempBonsPay | avg_bnft_cost | av_health_cst | JobClTtl | payrll_dept | rcd_nr | avDentlCst | hrly_evt_rte | LongvtyBonsPay stand for",
+    "gt_label": [
+      "Permanent Bonus Pay",
+      "TEMPORARY BONUS PAY",
+      "average benefit cost",
+      "average health cost",
+      "job class title",
+      "PAYROLL DEPARTMENT",
+      "RECORD NUMBER",
+      "Average Dental Cost",
+      "Hourly or Event Rate",
+      "LONGEVITY BONUS PAY"
+    ],
+    "technical_name": [
+      "permBonsPay",
+      "TempBonsPay",
+      "avg_bnft_cost",
+      "av_health_cst",
+      "JobClTtl",
+      "payrll_dept",
+      "rcd_nr",
+      "avDentlCst",
+      "hrly_evt_rte",
+      "LongvtyBonsPay"
+    ],
+    "difficulty": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "pazn-qyym",
+    "table_prompt": "column names : ProjAnnSalay, deptTitl\nrow 1 : 114130.08, Airports (LAWA)\nrow 2 : 94889.16, Aging\n",
+    "query": "As abbreviations of column names from a table, ProjAnnSalay | deptTitl stand for",
+    "gt_label": [
+      "PROJECTED ANNUAL SALARY",
+      "department title"
+    ],
+    "technical_name": [
+      "ProjAnnSalay",
+      "deptTitl"
+    ],
+    "difficulty": [
+      2,
+      2
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "ri9s-i2sb",
+    "table_prompt": "column names : accs_burnd, caus, endDte, start_dte, utilty\nrow 1 : 281893, Power lines coming i..., 10/31/2017, 10/8/2017, San Diego Gas & Elec...\nrow 2 : 281893, Failure of utility t..., 11/6/2007, 9/9/2015, Southern California ...\nrow 3 : 36523, Power lines coming i..., 1/12/2018, 12/4/2017, San Diego Gas & Elec...\nrow 4 : 153336, Power lines coming i..., 11/6/2007, 10/21/2007, San Diego Gas & Elec...\n",
+    "query": "As abbreviations of column names from a table, accs_burnd | caus | endDte | start_dte | utilty stand for",
+    "gt_label": [
+      "ACRES BURNED",
+      "CAUSE",
+      "END DATE",
+      "START DATE",
+      "Utility"
+    ],
+    "technical_name": [
+      "accs_burnd",
+      "caus",
+      "endDte",
+      "start_dte",
+      "utilty"
+    ],
+    "difficulty": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "yvi8-2wdp",
+    "table_prompt": "column names : air_crgo, inbound_tnng, outbnd_tonn, hrsOfIntrsecContr, OBSATTENDNC, RecreatnalSwimAttendnc\nrow 1 : 2242, 94, 79.0, 23730, 1565700, 1371223\nrow 2 : 2242, 88, 79.0, 25997, 1565700, 1330653\nrow 3 : 2366, 98, 88.0, 27622, 1417282, 1330653\nrow 4 : 2588, 94, 92.0, 32400, 840151, 1208758\nrow 5 : 2242, 98, 92.0, 42842, 840151, 1330653\nrow 6 : 2018, 106, 79.0, 72618, 969479, 1371223\nrow 7 : 2018, 98, 72.0, 42842, 1033429, 1320675\n",
+    "query": "As abbreviations of column names from a table, air_crgo | inbound_tnng | outbnd_tonn | hrsOfIntrsecContr | OBSATTENDNC | RecreatnalSwimAttendnc stand for",
+    "gt_label": [
+      "AIR CARGO",
+      "Inbound Tonnage",
+      "Outbound Tonnage",
+      "Hours of Intersection Control",
+      "OBSERVATORY ATTENDANCE",
+      "recreational swim attendance"
+    ],
+    "technical_name": [
+      "air_crgo",
+      "inbound_tnng",
+      "outbnd_tonn",
+      "hrsOfIntrsecContr",
+      "OBSATTENDNC",
+      "RecreatnalSwimAttendnc"
+    ],
+    "difficulty": [
+      0,
+      0,
+      1,
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "p37u-c75r",
+    "table_prompt": "column names : allotmnt_period, accnt_typ, accnt_typ_nm, activty_nm, curr_expns_bdgt, collctd_earnd_rev, fnd_typ_nm, actvty, adptd_expn_budgt, ncumbrd\nrow 1 : 13.0, 2.0, ANNUAL (BFY) APPROPR..., COMMISSION OVERSIGHT..., -10000.0, 148565.96, PENSION TRUST, 1402.0, 0, -33.29\n",
+    "query": "As abbreviations of column names from a table, allotmnt_period | accnt_typ | accnt_typ_nm | activty_nm | curr_expns_bdgt | collctd_earnd_rev | fnd_typ_nm | actvty | adptd_expn_budgt | ncumbrd stand for",
+    "gt_label": [
+      "Allotment Period",
+      "ACCOUNT TYPE",
+      "Account Type Name",
+      "Activity Name",
+      "CURRENT EXPENSE BUDGET",
+      "Collected Earned Revenue",
+      "Fund Type Name",
+      "activity",
+      "adopted expense budget",
+      "encumbered"
+    ],
+    "technical_name": [
+      "allotmnt_period",
+      "accnt_typ",
+      "accnt_typ_nm",
+      "activty_nm",
+      "curr_expns_bdgt",
+      "collctd_earnd_rev",
+      "fnd_typ_nm",
+      "actvty",
+      "adptd_expn_budgt",
+      "ncumbrd"
+    ],
+    "difficulty": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "p37u-c75r",
+    "table_prompt": "column names : acc_grp, acct, bgt_fisc_yr, departmntal_ind, Uncmttd, acc_grp_nm, bdgt_chng_amt, act_gp, ActivtyGrpNm, AllotmntAmt\nrow 1 : SPCL, 13V139, 2022, DEPARTMENTAL, -3642.5, EXPENSES, -10000.0, B, GENERAL ADMINISTRATI..., -19.55\n",
+    "query": "As abbreviations of column names from a table, acc_grp | acct | bgt_fisc_yr | departmntal_ind | Uncmttd | acc_grp_nm | bdgt_chng_amt | act_gp | ActivtyGrpNm | AllotmntAmt stand for",
+    "gt_label": [
+      "ACCOUNT GROUP",
+      "Account",
+      "Budget Fiscal Year",
+      "Departmental Indicator",
+      "UNCOMMITTED",
+      "account group name",
+      "budget change amount",
+      "ACTIVITY GROUP",
+      "Activity Group Name",
+      "Allotment Amount"
+    ],
+    "technical_name": [
+      "acc_grp",
+      "acct",
+      "bgt_fisc_yr",
+      "departmntal_ind",
+      "Uncmttd",
+      "acc_grp_nm",
+      "bdgt_chng_amt",
+      "act_gp",
+      "ActivtyGrpNm",
+      "AllotmntAmt"
+    ],
+    "difficulty": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "p37u-c75r",
+    "table_prompt": "column names : currntRevnBdgt, FsclPeriodNm, fndGrp\nrow 1 : -1938.88, MARCH, FIDC\n",
+    "query": "As abbreviations of column names from a table, currntRevnBdgt | FsclPeriodNm | fndGrp stand for",
+    "gt_label": [
+      "CURRENT REVENUE BUDGET",
+      "Fiscal Period Name",
+      "Fund Group"
+    ],
+    "technical_name": [
+      "currntRevnBdgt",
+      "FsclPeriodNm",
+      "fndGrp"
+    ],
+    "difficulty": [
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "rwzb-etf8",
+    "table_prompt": "column names : art_class_nrollmnt, trash_colctd_tons, habr_outbnd_tnng_mlons, harbr_inbnd_tnng_milns, yr, 311AvgCallrWtTmSecnds, AirCargoTonnMillions, camprAttendncDys, culturProgmAttendnc, LibCrdHldr\nrow 1 : 185546, 852635.0, 75.0, 94, 2015, 294.0, 2.66, 55624.0, 332937.0, 1076578.0\nrow 2 : 13000, 852635.0, 74.3, 94, 2009, 294.0, 2.66, 62427.0, 349820.0, 1076578.0\nrow 3 : 13500, 848890.0, 97.0, 106, 2016, 142.0, 2.37, 34060.0, 531498.0, 2120032.0\nrow 4 : 13000, 873104.0, 66.0, 99, 2016, 70.0, 2.66, 56204.0, 371810.0, 1099165.0\nrow 5 : 185546, 873104.0, 79.0, 103, 2009, 142.0, 2.59, 18900.0, 301387.0, 1099165.0\nrow 6 : 13500, 882005.0, 68.0, 99, 2009, 61.0, 2.39, 34060.0, 355211.0, 1148250.0\nrow 7 : 13000, 928377.0, 74.3, 103, 2019, 70.0, 2.24, 73929.0, 417831.0, 1148250.0\nrow 8 : 13000, 953670.0, 66.0, 98, 2012, 61.0, 2.24, 34060.0, 368339.0, 1300000.0\n",
+    "query": "As abbreviations of column names from a table, art_class_nrollmnt | trash_colctd_tons | habr_outbnd_tnng_mlons | harbr_inbnd_tnng_milns | yr | 311AvgCallrWtTmSecnds | AirCargoTonnMillions | camprAttendncDys | culturProgmAttendnc | LibCrdHldr stand for",
+    "gt_label": [
+      "Art Class Enrollment",
+      "Trash Collected Tons",
+      "HARBOR OUTBOUND TONNAGE MILLIONS",
+      "Harbor Inbound Tonnage Millions",
+      "Year",
+      "311 AVERAGE CALLER WAIT TIME SECONDS",
+      "Air Cargo Tonnage Millions",
+      "CAMPER ATTENDANCE DAYS",
+      "Cultural Programming Attendance",
+      "LIBRARY CARD HOLDERS"
+    ],
+    "technical_name": [
+      "art_class_nrollmnt",
+      "trash_colctd_tons",
+      "habr_outbnd_tnng_mlons",
+      "harbr_inbnd_tnng_milns",
+      "yr",
+      "311AvgCallrWtTmSecnds",
+      "AirCargoTonnMillions",
+      "camprAttendncDys",
+      "culturProgmAttendnc",
+      "LibCrdHldr"
+    ],
+    "difficulty": [
+      0,
+      0,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "rwzb-etf8",
+    "table_prompt": "column names : YdTrmmingsColctdTons, AvgEmergCallRespnsTmSecnds\nrow 1 : 428237.0, 420.0\nrow 2 : 417354.0, 337.2\nrow 3 : 474657.0, 420.0\nrow 4 : 414729.0, 337.2\nrow 5 : 414729.0, 420.0\nrow 6 : 417354.0, 357.0\nrow 7 : 425070.0, 420.0\nrow 8 : 470527.0, 337.2\n",
+    "query": "As abbreviations of column names from a table, YdTrmmingsColctdTons | AvgEmergCallRespnsTmSecnds stand for",
+    "gt_label": [
+      "YARD TRIMMINGS COLLECTED TONS",
+      "average emergency call response time seconds"
+    ],
+    "technical_name": [
+      "YdTrmmingsColctdTons",
+      "AvgEmergCallRespnsTmSecnds"
+    ],
+    "difficulty": [
+      2,
+      2
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "87im-rub8",
+    "table_prompt": "column names : asset_typ, Actvty_typ, AssetTypGr\nrow 1 : Restricted for Capit..., Primary Government, Net Investment in Ca...\nrow 2 : Restricted for Capit..., Primary Government, Net Investment in Ca...\nrow 3 : Restricted for Speci..., Governmental Activit..., Unrestricted\n",
+    "query": "As abbreviations of column names from a table, asset_typ | Actvty_typ | AssetTypGr stand for",
+    "gt_label": [
+      "Asset Type",
+      "activity type",
+      "ASSET TYPE GROUP"
+    ],
+    "technical_name": [
+      "asset_typ",
+      "Actvty_typ",
+      "AssetTypGr"
+    ],
+    "difficulty": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "m9sx-5vbj",
+    "table_prompt": "column names : card_typ, Entty, varinc, statmnt_yr, ck_amt, ck_dt, ck_num, StmtMnth, StmtTotl, TrsxTp\nrow 1 : Visa , JSI, 191.42, 2009, 752.73, 2010-04-12T00:00:00...., 2724, February, 3784.42, EPRI Events\n",
+    "query": "As abbreviations of column names from a table, card_typ | Entty | varinc | statmnt_yr | ck_amt | ck_dt | ck_num | StmtMnth | StmtTotl | TrsxTp stand for",
+    "gt_label": [
+      "CARD TYPE",
+      "Entity",
+      "variance",
+      "Statement Year",
+      "Check Amount",
+      "Check Date",
+      "check number",
+      "STATEMENT MONTH",
+      "Statement Total",
+      "Transaction Type"
+    ],
+    "technical_name": [
+      "card_typ",
+      "Entty",
+      "varinc",
+      "statmnt_yr",
+      "ck_amt",
+      "ck_dt",
+      "ck_num",
+      "StmtMnth",
+      "StmtTotl",
+      "TrsxTp"
+    ],
+    "difficulty": [
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "m9sx-5vbj",
+    "table_prompt": "column names : sttemntSbttl\nrow 1 : 6472.37\nrow 2 : 1265.39\nrow 3 : 166.14\nrow 4 : 1151.97\nrow 5 : 99.46\nrow 6 : 9549.17\nrow 7 : 1265.39\nrow 8 : 2347.75\nrow 9 : 500.71\nrow 10 : 1139.62\n",
+    "query": "As abbreviations of column names from a table, sttemntSbttl stand for",
+    "gt_label": [
+      "statement subtotal"
+    ],
+    "technical_name": [
+      "sttemntSbttl"
+    ],
+    "difficulty": [
+      2
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "psnd-s8uq",
+    "table_prompt": "column names : cntingency_resrv_jul_1, totl_resrv_fund_jul_1, adjstd_fscl_yr_strt_blnc, emResrvJul1, lessTransfToBdgt, resFndTransfBdgt, resFndTransfBdgt, less_txfr_budg_stabilizatn_fnd, PriorFisclYrEndingBlnc\nrow 1 : 52062542.0, 166076118.0, 233067625.0, 60799436.0, 0.0, 117546306.0, 63716878.0, 0.0, 69591870.0\nrow 2 : 62488873.0, 382988919.0, 151696332.0, 120318000.0, -16525047.0, 57962628.0, 60312889.0, -26940000.0, 174251554.0\n",
+    "query": "As abbreviations of column names from a table, cntingency_resrv_jul_1 | totl_resrv_fund_jul_1 | adjstd_fscl_yr_strt_blnc | emResrvJul1 | lessTransfToBdgt | resFndTransfBdgt | resFndTransfBdgt | less_txfr_budg_stabilizatn_fnd | PriorFisclYrEndingBlnc stand for",
+    "gt_label": [
+      "Contingency Reserve July 1",
+      "Total Reserve Fund July 1",
+      "adjusted fiscal year start balance",
+      "EMERGENCY RESERVE JULY 1",
+      "Less Transfer to Budget",
+      "RESERVE FUND TRANSFER TO BUDGET",
+      "Reserve Fund Transfer to Budget",
+      "less transfer to budget stabilization fund",
+      "prior fiscal year ending balance"
+    ],
+    "technical_name": [
+      "cntingency_resrv_jul_1",
+      "totl_resrv_fund_jul_1",
+      "adjstd_fscl_yr_strt_blnc",
+      "emResrvJul1",
+      "lessTransfToBdgt",
+      "resFndTransfBdgt",
+      "resFndTransfBdgt",
+      "less_txfr_budg_stabilizatn_fnd",
+      "PriorFisclYrEndingBlnc"
+    ],
+    "difficulty": [
+      0,
+      0,
+      1,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "8s4w-khwv",
+    "table_prompt": "column names : cntract, Industr, DteFund, addr, amtFund, counclDstrct, bsnsNm, OjbcID, dtCntractByClerk\nrow 1 : C-136627, Construction, 2020-09-02T00:00:00...., 17047 1/2 VENTURA BL..., 9000, 14, RECESS OPS LLC, DBA:..., 149, 2020-10-09T00:00:00....\nrow 2 : C-136926, Health & Beauty Serv..., 2020-09-29T00:00:00...., 20935 VANOWEN ST, ST..., 6500, 13, Dynamic Tone Corpora..., 355, 2020-09-26T00:00:00....\nrow 3 : C-135584, Construction, 2020-10-02T00:00:00...., 1034 Pleasantview Av..., 17500, 9, MINDERFUL MOVIES, IN..., 466, 2020-06-03T00:00:00....\nrow 4 : C-137248, Hospitality, 2020-08-07T00:00:00...., 11167 Tampa Ave., Po..., 18000, 3, AMAR DESH, INC., AMA..., 325, 2020-09-08T00:00:00....\nrow 5 : C-136106, Wholesale, 2020-07-21T00:00:00...., 8976 Tampa Ave., Nor..., 5600, 14, Little Angels Commun..., 694, 2020-07-02T00:00:00....\nrow 6 : C-136330, Construction, 2020-10-23T00:00:00...., 8214 Melrose Ave., L..., 10000, 15, Ana May Lua and Sand..., 687, 2020-04-18T00:00:00....\nrow 7 : C-137259, Other, 2020-08-27T00:00:00...., 13714 Sherman Way, V..., 17500, 9, HEA JIN LEE DBA PRET..., 109, 2020-08-19T00:00:00....\nrow 8 : C-136415, Other, 2020-09-16T00:00:00...., 1100 S. Western Ave...., 19000, 12, SMALL MASTERPIECE [ ..., 666, 2020-05-26T00:00:00....\nrow 9 : C-136133, Automotive, 2020-08-14T00:00:00...., 8730 W. 3RD ST., Los..., 7000, 1, Mazhar Islam Farmers..., 166, 2020-09-16T00:00:00....\nrow 10 : c-135464, Other, 2020-09-01T00:00:00...., 922 S PACIFIC AVE, S..., 13000, 4, The Eyes Have It, 626, 2020-07-08T00:00:00....\n",
+    "query": "As abbreviations of column names from a table, cntract | Industr | DteFund | addr | amtFund | counclDstrct | bsnsNm | OjbcID | dtCntractByClerk stand for",
+    "gt_label": [
+      "Contract",
+      "INDUSTRY",
+      "DATE FUNDED",
+      "address",
+      "amount funded",
+      "COUNCIL DISTRICT",
+      "business name",
+      "object id",
+      "date of contract by clerk"
+    ],
+    "technical_name": [
+      "cntract",
+      "Industr",
+      "DteFund",
+      "addr",
+      "amtFund",
+      "counclDstrct",
+      "bsnsNm",
+      "OjbcID",
+      "dtCntractByClerk"
+    ],
+    "difficulty": [
+      0,
+      0,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      3
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "ej7u-di9z",
+    "table_prompt": "column names : councl_fil_lnk, inactve_fnd_clos, fundNm, fnd_grp, fnd_typ, gnrl_fnd_reversn, councl_fil_num, fnd_nr, fnd_bal, lst_expn_rcrd\nrow 1 : https://cityclerk.la..., No, Wastewater System Re..., Fiduciary, Debt Service, yes, 18-0327, 842, 235929.95, 04-19-2022\nrow 2 : https://cityclerk.la..., Yes, LAFPP Health Care Fu..., Proprietary Dept., General Fund, Unable to Determine, 00-0625, 64H, 75273.44, 08-03-2012\n",
+    "query": "As abbreviations of column names from a table, councl_fil_lnk | inactve_fnd_clos | fundNm | fnd_grp | fnd_typ | gnrl_fnd_reversn | councl_fil_num | fnd_nr | fnd_bal | lst_expn_rcrd stand for",
+    "gt_label": [
+      "Council File Link",
+      "Inactive Fund Close",
+      "FUND NAME",
+      "Fund Group",
+      "Fund Type",
+      "GENERAL FUND REVERSION",
+      "council file number",
+      "FUND NUMBER",
+      "Fund Balance",
+      "last expense recorded"
+    ],
+    "technical_name": [
+      "councl_fil_lnk",
+      "inactve_fnd_clos",
+      "fundNm",
+      "fnd_grp",
+      "fnd_typ",
+      "gnrl_fnd_reversn",
+      "councl_fil_num",
+      "fnd_nr",
+      "fnd_bal",
+      "lst_expn_rcrd"
+    ],
+    "difficulty": [
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "ej7u-di9z",
+    "table_prompt": "column names : Ass, cd_sec, colct_rev, liab, con_ph, AdptdBudg, bgngCsh, BUDGSCHEDNM, BudgSkedNr, capProj\nrow 1 : 404274.95, Administrative Code ..., 4384480.57, -20135.0, (213) 279-3042, 3652543, 62825.03, No, 37, Both\nrow 2 : 579450.0, Administrative Code ..., 150452875.33, -187672.41, (213) 279-3042, 935048, 8971480.54, None, 10, Yes\nrow 3 : 1227992.22, Administrative Code ..., 6527289.24, -7479775.96, (213) 228-7562, 378015, 10131.16, Measure R Traffic Re..., 54, No\n",
+    "query": "As abbreviations of column names from a table, Ass | cd_sec | colct_rev | liab | con_ph | AdptdBudg | bgngCsh | BUDGSCHEDNM | BudgSkedNr | capProj stand for",
+    "gt_label": [
+      "ASSETS",
+      "Code Section",
+      "Collected Revenue",
+      "Liabilities",
+      "contact telephone",
+      "ADOPTED BUDGET",
+      "Beginning Cash",
+      "Budget Schedule Name",
+      "Budget Schedule Number",
+      "CAPITAL PROJECT"
+    ],
+    "technical_name": [
+      "Ass",
+      "cd_sec",
+      "colct_rev",
+      "liab",
+      "con_ph",
+      "AdptdBudg",
+      "bgngCsh",
+      "BUDGSCHEDNM",
+      "BudgSkedNr",
+      "capProj"
+    ],
+    "difficulty": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "ej7u-di9z",
+    "table_prompt": "column names : ctctEmail, ctctNm, currCashBlnc, FndCateg, FndPurpo, GrntProj, interToGenrlFnd, ordinNum, OvhdCstsRembursEligibilty, ttlBdgt\nrow 1 : gina.mancha@lacity.o..., Judith Daco, 6795.39, Pension & Retirement, To pay costs of the ..., No, Yes, 166103, No, 1174920.0\nrow 2 : wedmay.lao@lacity.or..., Natalie Brill, 1827.5, Special Purpose Fund, To fund programs as ..., No, Yes, 171636, Yes, 36012.91\nrow 3 : jeff.peltola@ladwp.c..., Claire No, 2554014.44, Special Purpose Fund, Tracks Prop 1C grant..., No, no, 185829, N, 27000.0\n",
+    "query": "As abbreviations of column names from a table, ctctEmail | ctctNm | currCashBlnc | FndCateg | FndPurpo | GrntProj | interToGenrlFnd | ordinNum | OvhdCstsRembursEligibilty | ttlBdgt stand for",
+    "gt_label": [
+      "CONTACT EMAIL",
+      "Contact Name",
+      "Current Cash Balance",
+      "FUND CATEGORY",
+      "Fund Purpose",
+      "Grant Project",
+      "Interest to General Fund",
+      "Ordinance Number",
+      "Overhead Costs Reimbursement Eligibility",
+      "Total Budget"
+    ],
+    "technical_name": [
+      "ctctEmail",
+      "ctctNm",
+      "currCashBlnc",
+      "FndCateg",
+      "FndPurpo",
+      "GrntProj",
+      "interToGenrlFnd",
+      "ordinNum",
+      "OvhdCstsRembursEligibilty",
+      "ttlBdgt"
+    ],
+    "difficulty": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "ej7u-di9z",
+    "table_prompt": "column names : fxn, fund_effctv_dr\nrow 1 : Parks, 06-12-2018\nrow 2 : Social Services, 01-26-2015\nrow 3 : Arts/Culture/Tourism, 09-22-1994\nrow 4 : Housing & Homelessne..., 03-21-2018\nrow 5 : Social Services, 06-23-1997\nrow 6 : Other, 07-08-2013\nrow 7 : Public Works, 09-10-1993\nrow 8 : Transportation, 02-29-2016\nrow 9 : Debt Service, 11-18-1994\nrow 10 : Other, 05-04-2000\n",
+    "query": "As abbreviations of column names from a table, fxn | fund_effctv_dr stand for",
+    "gt_label": [
+      "FUNCTION",
+      "FUND EFFECTIVE DATE"
+    ],
+    "technical_name": [
+      "fxn",
+      "fund_effctv_dr"
+    ],
+    "difficulty": [
+      3,
+      3
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "dveq-hhce",
+    "table_prompt": "column names : dte_made, titl, acq_dt\nrow 1 : 1996, FREEDOM, 1936-06-03T00:00:00....\nrow 2 : 1988-89, BIRD, 1905-05-25T00:00:00....\nrow 3 : 1930, CORNER OF SAN VICENT..., 1905-05-30T00:00:00....\nrow 4 : Before 1966, KALEIDOSCOPE, 1966-07-05T00:00:00....\nrow 5 : 1970, MOUNTAIN, 1905-06-02T00:00:00....\nrow 6 : 1928, Violin, Seashell & F..., 1983-10-10T00:00:00....\nrow 7 : 1940, 324 10TH ST., SAN PE..., 1905-05-21T00:00:00....\nrow 8 : 1965, ST. JOSEPH'S CHURCH ..., 1976-11-12T00:00:00....\nrow 9 : Before 1966, ROAD TO LOMPOC, NO. ..., 1931-06-10T00:00:00....\nrow 10 : 1924, CALIFORNIA LANDSCAPE, 1969-12-22T00:00:00....\n",
+    "query": "As abbreviations of column names from a table, dte_made | titl | acq_dt stand for",
+    "gt_label": [
+      "DATE MADE",
+      "title",
+      "acquisition date"
+    ],
+    "technical_name": [
+      "dte_made",
+      "titl",
+      "acq_dt"
+    ],
+    "difficulty": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "s234-w655",
+    "table_prompt": "column names : fisc_period, rev_src_categ_nm, rev_srce_cl, fsclMth, fsclMthNm, revSrceCat, REVSRC, RevSrcClNm\nrow 1 : 202209, REVENUES FR OTH GOVT..., 454, 9, MARCH, 38, 4154, DONATIONS & CONTRIBU...\n",
+    "query": "As abbreviations of column names from a table, fisc_period | rev_src_categ_nm | rev_srce_cl | fsclMth | fsclMthNm | revSrceCat | REVSRC | RevSrcClNm stand for",
+    "gt_label": [
+      "Fiscal Period",
+      "Revenue Source Category Name",
+      "Revenue Source Class",
+      "FISCAL MONTH",
+      "FISCAL MONTH NAME",
+      "Revenue Source Category",
+      "revenue source",
+      "revenue source class name"
+    ],
+    "technical_name": [
+      "fisc_period",
+      "rev_src_categ_nm",
+      "rev_srce_cl",
+      "fsclMth",
+      "fsclMthNm",
+      "revSrceCat",
+      "REVSRC",
+      "RevSrcClNm"
+    ],
+    "difficulty": [
+      0,
+      1,
+      1,
+      2,
+      2,
+      3,
+      3,
+      3
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "a2n7-gr2a",
+    "table_prompt": "column names : harbr_employmnt, publ_wrks_emplymnt, CulturlRecreatnlSrvcsEmploymnt, HealthSanittnSewrEmploymnt, prot_ppl_prop_empl, trnsportatnEmploymnt, wtrPowEmploymnt, cmtyDvlpEmploymnt\nrow 1 : 883, 2371, 2267, 2430, 17924, 1355, 9065, 1176\nrow 2 : 958, 2409, 2644, 2318, 17451, 1597, 9200, 1074\nrow 3 : 948, 2409, 2532, 2318, 17761, 1324, 9456, 1074\nrow 4 : 971, 2131, 3023, 2564, 17451, 1268, 8924, 1149\nrow 5 : 958, 2131, 2644, 2446, 17329, 1307, 9200, 1176\nrow 6 : 883, 2131, 3023, 2317, 17152, 1324, 9210, 1074\nrow 7 : 883, 2963, 2421, 2564, 17761, 1355, 9210, 1085\nrow 8 : 885, 2132, 2393, 2601, 17804, 1355, 9200, 1035\nrow 9 : 948, 2216, 2421, 2318, 18650, 1597, 9456, 1098\n",
+    "query": "As abbreviations of column names from a table, harbr_employmnt | publ_wrks_emplymnt | CulturlRecreatnlSrvcsEmploymnt | HealthSanittnSewrEmploymnt | prot_ppl_prop_empl | trnsportatnEmploymnt | wtrPowEmploymnt | cmtyDvlpEmploymnt stand for",
+    "gt_label": [
+      "HARBOR EMPLOYMENT",
+      "PUBLIC WORKS EMPLOYMENT",
+      "Cultural and Recreational Services Employment",
+      "HEALTH SANITATION AND SEWER EMPLOYMENT",
+      "PROTECTION OF PEOPLE AND PROPERTY EMPLOYMENT",
+      "TRANSPORTATION EMPLOYMENT",
+      "Water and Power Employment",
+      "community development employment"
+    ],
+    "technical_name": [
+      "harbr_employmnt",
+      "publ_wrks_emplymnt",
+      "CulturlRecreatnlSrvcsEmploymnt",
+      "HealthSanittnSewrEmploymnt",
+      "prot_ppl_prop_empl",
+      "trnsportatnEmploymnt",
+      "wtrPowEmploymnt",
+      "cmtyDvlpEmploymnt"
+    ],
+    "difficulty": [
+      0,
+      0,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "g9h8-fvhu",
+    "table_prompt": "column names : job_stats, JobTtl, overtm_pay, Ethncty, pay_yr, RegPay, gndr, empl_typ, benefpay, departmntTitl\nrow 1 : NOT_ACTIVE, ELTL ENGG DRFTG TCHN, 7550.35, FILIPINO, 2017, 79601.7, MALE, PART_TIME, 13178.03, POLICE\nrow 2 : NOT_ACTIVE, WTR UTLTY OPR, 9958.8, ASIAN AMERICAN, 2016, 89174.52, FEMALE, FULL_TIME, 13178.03, WATER AND POWER\n",
+    "query": "As abbreviations of column names from a table, job_stats | JobTtl | overtm_pay | Ethncty | pay_yr | RegPay | gndr | empl_typ | benefpay | departmntTitl stand for",
+    "gt_label": [
+      "Job Status",
+      "Job Title",
+      "OVERTIME PAY",
+      "ethnicity",
+      "Pay Year",
+      "REGULAR PAY",
+      "gender",
+      "Employment Type",
+      "Benefit Pay",
+      "DEPARTMENT TITLE"
+    ],
+    "technical_name": [
+      "job_stats",
+      "JobTtl",
+      "overtm_pay",
+      "Ethncty",
+      "pay_yr",
+      "RegPay",
+      "gndr",
+      "empl_typ",
+      "benefpay",
+      "departmntTitl"
+    ],
+    "difficulty": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "g9h8-fvhu",
+    "table_prompt": "column names : DepartmntNo, totlPay\nrow 1 : 70, 118007.92\nrow 2 : 98, 105263.75\nrow 3 : 94, 160680.92\n",
+    "query": "As abbreviations of column names from a table, DepartmntNo | totlPay stand for",
+    "gt_label": [
+      "Department No",
+      "Total Pay"
+    ],
+    "technical_name": [
+      "DepartmntNo",
+      "totlPay"
+    ],
+    "difficulty": [
+      2,
+      2
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "3sn9-wkuu",
+    "table_prompt": "column names : labr_cost, non_labr_cost, SubTsk, colsng_class_nm, appn, prj_cd, DeptCd, AppropriatnNm, colsngclass, fund_spent\nrow 1 : 0.0, -4056.98, 325, Cash Expenditures, 10T63P, 63PSBCSUBR, 10, ECONOMIC AND WORKFOR..., 11, 63S\n",
+    "query": "As abbreviations of column names from a table, labr_cost | non_labr_cost | SubTsk | colsng_class_nm | appn | prj_cd | DeptCd | AppropriatnNm | colsngclass | fund_spent stand for",
+    "gt_label": [
+      "Labor Cost",
+      "NON LABOR COST",
+      "sub task",
+      "closing classification name",
+      "APPROPRIATION",
+      "Project Code",
+      "department code",
+      "APPROPRIATION NAME",
+      "Closing Classification",
+      "Fund"
+    ],
+    "technical_name": [
+      "labr_cost",
+      "non_labr_cost",
+      "SubTsk",
+      "colsng_class_nm",
+      "appn",
+      "prj_cd",
+      "DeptCd",
+      "AppropriatnNm",
+      "colsngclass",
+      "fund_spent"
+    ],
+    "difficulty": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "3sn9-wkuu",
+    "table_prompt": "column names : majProj, PrjCateg, WRKORD, wkOrdNm, subTskNm, TskNm\nrow 1 : 63PRER, CRF, A1LCCSUB, PHASE II BRIDGE HOME..., MISCELLANEOUS CHARGE..., MISCELLANEOUS CHARGE...\n",
+    "query": "As abbreviations of column names from a table, majProj | PrjCateg | WRKORD | wkOrdNm | subTskNm | TskNm stand for",
+    "gt_label": [
+      "MAJOR PROJECT",
+      "PROJECT CATEGORY",
+      "Work Order",
+      "Work Order Name",
+      "Sub Task Name",
+      "task name"
+    ],
+    "technical_name": [
+      "majProj",
+      "PrjCateg",
+      "WRKORD",
+      "wkOrdNm",
+      "subTskNm",
+      "TskNm"
+    ],
+    "difficulty": [
+      2,
+      2,
+      2,
+      2,
+      3,
+      3
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "q45p-mx3u",
+    "table_prompt": "column names : male_ttl_salry, mle, fem_tot_salry, FEM, FemAveSalry, MaleAveSalry, totpyrl\nrow 1 : 964165.6, 12, 1527345.7, 214, 66830.71, 74160.99, 263133.7\nrow 2 : 1262761.76, 104, 28031671.63, 455, 77863.51, 59777.57, 68181482.48\nrow 3 : 14692784.5, 2360, 6560966.33, 124, 83167.15, 76886.92, 13575502.73\nrow 4 : 174604810.99, 166, 26293732.49, 61, 103314.49, 83000.24, 68181482.48\nrow 5 : 1558775.04, 700, 36679016.21, 23, 64287.85, 83860.6, 2532265.71\nrow 6 : 1496854.72, 9640, 18789038.98, 224, 83167.15, 62188.27, 71774804.81\nrow 7 : 424066.4, 141, 36679016.21, 379, 103314.49, 84200.16, 3095173.44\nrow 8 : 888672.4, 1186, 7061323.51, 124, 86941.56, 83860.6, 94097000.56\nrow 9 : 909358964.81, 4, 30407972.86, 8, 67785.41, 87588.92, 106828322.56\nrow 10 : 135637.6, 159, 1478006.51, 15, 58039.12, 105230.15, 3095173.44\n",
+    "query": "As abbreviations of column names from a table, male_ttl_salry | mle | fem_tot_salry | FEM | FemAveSalry | MaleAveSalry | totpyrl stand for",
+    "gt_label": [
+      "MALE TOTAL SALARY",
+      "MALE",
+      "Female Total Salary",
+      "Female",
+      "FEMALE AVERAGE SALARY",
+      "Male Average Salary",
+      "Total Payroll"
+    ],
+    "technical_name": [
+      "male_ttl_salry",
+      "mle",
+      "fem_tot_salry",
+      "FEM",
+      "FemAveSalry",
+      "MaleAveSalry",
+      "totpyrl"
+    ],
+    "difficulty": [
+      0,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "9z75-k9sy",
+    "table_prompt": "column names : medn_age, UnemploymntRt, publSqlNrollmnt\nrow 1 : 33.3, 7.2, 819576\nrow 2 : 34.1, 13.9, 701208\nrow 3 : 34.4, 13.5, 701208\nrow 4 : 33.3, 12.1, 701208\nrow 5 : 34.7, 8.3, 748273\nrow 6 : 33.3, 12.1, 625935\nrow 7 : 34.0, 13.9, 836301\nrow 8 : 33.7, 12.8, 784457\n",
+    "query": "As abbreviations of column names from a table, medn_age | UnemploymntRt | publSqlNrollmnt stand for",
+    "gt_label": [
+      "Median Age",
+      "Unemployment Rate",
+      "public school enrollment"
+    ],
+    "technical_name": [
+      "medn_age",
+      "UnemploymntRt",
+      "publSqlNrollmnt"
+    ],
+    "difficulty": [
+      0,
+      2,
+      2
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "ppqu-esu9",
+    "table_prompt": "column names : net_oprtng_cash_flow, dbt_serv, NetAvailRev, net_avail_rev_cov, netOprtngCashFlwCovrg\nrow 1 : 317305, 134106.0, 211805, 2.8320691431, 2.3982007377\nrow 2 : 284783, 143974.0, 109866, 2.1735645592, 1.8815648184\nrow 3 : 347264, 65488.0, 169885, 2.9255642421, 2.6253697181\nrow 4 : 214662, 206965.0, 161607, 5.646448412, 1.3362002314\nrow 5 : 427647, 38730.0, 331085, 1.6854588279, 3.2737031864\nrow 6 : 741881, 143974.0, 279186, 3.2483871225, 0.9952007439\nrow 7 : 226037, 133354.0, 279186, 1.4348561351, 2.089198299\nrow 8 : 251198, 218021.0, 116137, 2.7872667188, 2.089198299\nrow 9 : 317305, 71851.0, 161607, 2.4455526561, 1.5817863048\nrow 10 : 851613, 270357.0, 332612, 1.4504816823, 1.6004437032\n",
+    "query": "As abbreviations of column names from a table, net_oprtng_cash_flow | dbt_serv | NetAvailRev | net_avail_rev_cov | netOprtngCashFlwCovrg stand for",
+    "gt_label": [
+      "NET OPERATING CASH FLOW",
+      "Debt Service",
+      "Net Available Revenue",
+      "net available revenue coverage",
+      "Net Operating Cash Flow Coverage"
+    ],
+    "technical_name": [
+      "net_oprtng_cash_flow",
+      "dbt_serv",
+      "NetAvailRev",
+      "net_avail_rev_cov",
+      "netOprtngCashFlwCovrg"
+    ],
+    "difficulty": [
+      0,
+      1,
+      1,
+      1,
+      2
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "wvw6-5jje",
+    "table_prompt": "column names : non_vtr_apprvd_debt_cap, non_vtr_apprvd, vtr_apprvd, gnrl_fnd_rcpts, totDbtCap\nrow 1 : 0.06, 0.032, 0.021348, 5338013880, 0.15\n",
+    "query": "As abbreviations of column names from a table, non_vtr_apprvd_debt_cap | non_vtr_apprvd | vtr_apprvd | gnrl_fnd_rcpts | totDbtCap stand for",
+    "gt_label": [
+      "NON VOTER APPROVED DEBT CAP",
+      "Non Voter Approved",
+      "voter approved",
+      "GENERAL FUND RECEIPTS",
+      "TOTAL DEBT CAP"
+    ],
+    "technical_name": [
+      "non_vtr_apprvd_debt_cap",
+      "non_vtr_apprvd",
+      "vtr_apprvd",
+      "gnrl_fnd_rcpts",
+      "totDbtCap"
+    ],
+    "difficulty": [
+      0,
+      0,
+      1,
+      1,
+      2
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "m5ws-fquu",
+    "table_prompt": "column names : of_construct_days, softCost, ConstructCost, totl_develpmnt_cost, constr_start_dt, Stud, constr_end_dt, STG, totl_constr_tm, PROJ\nrow 1 : 531, 11057382.0, 32362052.0, 31744893.0, 2020-12-07T00:00:00...., 43.0, 2022-01-15T00:00:00...., Under Review, 1 year 8 months 4 da..., Emerson Apartments (...\nrow 2 : 555, 10799005.0, 13347487.0, 53866560.0, 2020-04-03T00:00:00...., 60.0, 2021-08-13T00:00:00...., Under Review, 1 year 6 months 8 da..., Topanga Apartments -...\nrow 3 : 552, 2202200.0, 24885942.0, 47426085.0, 2020-01-31T00:00:00...., 37.0, 2022-01-15T00:00:00...., Under Construction, 1 year, Southside Seniors - ...\n",
+    "query": "As abbreviations of column names from a table, of_construct_days | softCost | ConstructCost | totl_develpmnt_cost | constr_start_dt | Stud | constr_end_dt | STG | totl_constr_tm | PROJ stand for",
+    "gt_label": [
+      "OF CONSTRUCTION DAYS",
+      "SOFT COSTS",
+      "construction costs",
+      "total development cost",
+      "CONSTRUCTION START DATE",
+      "STUDIO",
+      "construction end date",
+      "Stage",
+      "TOTAL CONSTRUCTION TIME",
+      "project"
+    ],
+    "technical_name": [
+      "of_construct_days",
+      "softCost",
+      "ConstructCost",
+      "totl_develpmnt_cost",
+      "constr_start_dt",
+      "Stud",
+      "constr_end_dt",
+      "STG",
+      "totl_constr_tm",
+      "PROJ"
+    ],
+    "difficulty": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "m5ws-fquu",
+    "table_prompt": "column names : LandCsts, ProjNm\nrow 1 : 1045000.0, Sylmar II\nrow 2 : 30000000.0, Weingart Tower 1B\nrow 3 : 2420000.0, Ambrosia\nrow 4 : 4000000.0, Washington Arts Coll...\nrow 5 : 5100000.0, Los Lirios Apartment...\nrow 6 : 5288077.0, 11408 S Central Ave\nrow 7 : 7240000.0, Bryson II\nrow 8 : 3166186.0, 841 N. Banning\nrow 9 : 1325000.0, 4507 Main Street\nrow 10 : 3650000.0, Thatcher Yard Housin...\n",
+    "query": "As abbreviations of column names from a table, LandCsts | ProjNm stand for",
+    "gt_label": [
+      "land costs",
+      "project name"
+    ],
+    "technical_name": [
+      "LandCsts",
+      "ProjNm"
+    ],
+    "difficulty": [
+      2,
+      2
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "4cqx-8rqs",
+    "table_prompt": "column names : Princpl, intrst, ttl, MeasrNm, measrVal\nrow 1 : 1375984000, 474230000, 5724000, Interest, 185660000\nrow 2 : 185660000, 918000, 4231510000, Interest, 2624685000\n",
+    "query": "As abbreviations of column names from a table, Princpl | intrst | ttl | MeasrNm | measrVal stand for",
+    "gt_label": [
+      "PRINCIPAL",
+      "Interest",
+      "Total",
+      "MEASURE NAMES",
+      "measure values"
+    ],
+    "technical_name": [
+      "Princpl",
+      "intrst",
+      "ttl",
+      "MeasrNm",
+      "measrVal"
+    ],
+    "difficulty": [
+      0,
+      1,
+      1,
+      2,
+      2
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "ienq-vvtk",
+    "table_prompt": "column names : progrm, oprtng_indctr, gvrnmnt_wd_act\nrow 1 : Convention and Touri..., Personnel for El Pue..., Business-Type Activi...\nrow 2 : Solid Resources, Percent of streetlig..., Health and Sanitatio...\nrow 3 : --, Inclusionary message..., Protection of Person...\nrow 4 : Accounting and Disbu..., Animals euthanized, Transportation\nrow 5 : AIDS Coordination, Trees trimmed - City..., General Government\nrow 6 : System Operation, Ma..., Improved ADA complia..., Transportation\nrow 7 : Recreational Opportu..., Personnel for Enviro..., Community Developmen...\nrow 8 : Emergency Ambulance ..., Hours spent daily ma..., Business-Type Activi...\n",
+    "query": "As abbreviations of column names from a table, progrm | oprtng_indctr | gvrnmnt_wd_act stand for",
+    "gt_label": [
+      "PROGRAM",
+      "OPERATING INDICATOR",
+      "GOVERNMENT WIDE ACTIVITY"
+    ],
+    "technical_name": [
+      "progrm",
+      "oprtng_indctr",
+      "gvrnmnt_wd_act"
+    ],
+    "difficulty": [
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "8tiv-seqc",
+    "table_prompt": "column names : stat, siteNm, siteNm, cty, lat, long, st, web\nrow 1 : CA, 14, LA Plaza de Cultura ..., Mission Hills, 34.03339, -118.363373, 4500 Multnomah St, {'url': 'https://mar...\n",
+    "query": "As abbreviations of column names from a table, stat | siteNm | siteNm | cty | lat | long | st | web stand for",
+    "gt_label": [
+      "STATE",
+      "SITE NUMBER",
+      "Site Name",
+      "city",
+      "Latitude",
+      "Longitude",
+      "Street",
+      "Website"
+    ],
+    "technical_name": [
+      "stat",
+      "siteNm",
+      "siteNm",
+      "cty",
+      "lat",
+      "long",
+      "st",
+      "web"
+    ],
+    "difficulty": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "bawf-ixme",
+    "table_prompt": "column names : use_cd_2, dsgn_typ_1, metr, stat_assmbl_distr, tx_rt_area, UseCd, agcy_nm, use_des, fed, nm\nrow 1 : 61, 6100.0, 0, 46, 8852, 7200, U S GOV'T, Industrial, 0, Van Nuys Senior High...\nrow 2 : 88, 8100.0, 0, 62, 8849, 8823, L A CITY PARK, Commercial, 0, Calabash Street Elem...\n",
+    "query": "As abbreviations of column names from a table, use_cd_2 | dsgn_typ_1 | metr | stat_assmbl_distr | tx_rt_area | UseCd | agcy_nm | use_des | fed | nm stand for",
+    "gt_label": [
+      "Use Code 2",
+      "design type 1",
+      "metro",
+      "STATE ASSEMBLY DISTRICT",
+      "Tax Rate Area",
+      "USE CODE",
+      "Agency Name",
+      "use description",
+      "Federal",
+      "Name"
+    ],
+    "technical_name": [
+      "use_cd_2",
+      "dsgn_typ_1",
+      "metr",
+      "stat_assmbl_distr",
+      "tx_rt_area",
+      "UseCd",
+      "agcy_nm",
+      "use_des",
+      "fed",
+      "nm"
+    ],
+    "difficulty": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "bawf-ixme",
+    "table_prompt": "column names : propLoc, ctyCounclDist, class_of_fac, enttOwnr, EffectveYr1, NbhCounclNm, shpLngth, statSenDistr, shpArea, UseTyp\nrow 1 : 22237 VICTORY BLVD  ..., 4, School, LAUSD, 1968.0, Sherman Oaks, 339.992409228781, 26, 339631.270507813, Miscellaneous\nrow 2 : 7334 JORDAN AVE  LOS..., 12, Church, City, 1962.0, Northridge South, 66.0007100800637, 18, 28755.408203125, Commercial\nrow 3 : 14746 BLYTHE ST  LOS..., 14, Church, Federal, 1954.0, Sherman Oaks, 958.012315047963, 26, 166891.967773438, Industrial\nrow 4 : 14550 LANARK ST  LOS..., 3, Park, LAUSD, 1967.0, Greater Valley Glen, 151.891125310606, 24, 869579.133789063, Residential\n",
+    "query": "As abbreviations of column names from a table, propLoc | ctyCounclDist | class_of_fac | enttOwnr | EffectveYr1 | NbhCounclNm | shpLngth | statSenDistr | shpArea | UseTyp stand for",
+    "gt_label": [
+      "Property Location",
+      "CITY COUNCIL DISTRICT",
+      "CLASS",
+      "ENTITY OWNER",
+      "Effective Year 1",
+      "NEIGHBORHOOD COUNCIL NAME",
+      "SHAPE LENGTH",
+      "STATE SENATE DISTRICT",
+      "Shape Area",
+      "USE TYPE"
+    ],
+    "technical_name": [
+      "propLoc",
+      "ctyCounclDist",
+      "class_of_fac",
+      "enttOwnr",
+      "EffectveYr1",
+      "NbhCounclNm",
+      "shpLngth",
+      "statSenDistr",
+      "shpArea",
+      "UseTyp"
+    ],
+    "difficulty": [
+      1,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "bawf-ixme",
+    "table_prompt": "column names : congressnalDstrct, PrclBndryDes, yrBlt1, agcy_class_num, assesrID, txRtareaCty\nrow 1 : 29, *TR=34211 LOT   43, 1961.0, 0.0, 2017-014-901, LOS ANGELES\n",
+    "query": "As abbreviations of column names from a table, congressnalDstrct | PrclBndryDes | yrBlt1 | agcy_class_num | assesrID | txRtareaCty stand for",
+    "gt_label": [
+      "congressional district",
+      "parcel boundary description",
+      "year built 1",
+      "Agency Class No",
+      "Assessor ID",
+      "Tax Rate Area City"
+    ],
+    "technical_name": [
+      "congressnalDstrct",
+      "PrclBndryDes",
+      "yrBlt1",
+      "agcy_class_num",
+      "assesrID",
+      "txRtareaCty"
+    ],
+    "difficulty": [
+      2,
+      2,
+      2,
+      3,
+      3,
+      3
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "v2mg-qsxf",
+    "table_prompt": "column names : web_lnk, zip_cd, PH, StAdr, rsrcTyp, Countr\nrow 1 : {'url': 'https://www..., 95819, 714-903-1331, 224 Mill Street, Mobile Food Pantry, Calaveras\nrow 2 : {'url': 'http://www...., 93257, (626) 852-7630, 3625 Ottawa Avenue, Nutrition Services P..., Mariposa\nrow 3 : {'url': 'https://www..., 95603, 951-236-9477, 1212 E. Alisal Stree..., Food Distribution Pr..., Monterey\nrow 4 : {'url': 'https://prd..., 94509, 909-338-4689, 559 Broadway Avenue, Senior Food Box, Contra Costa\nrow 5 : {'url': 'https://prd..., 95324, 949-586-4440, 1725 11th Avenue, Food Pantry, Modoc\nrow 6 : {'url': 'http://www...., 93546, (619) 445-5508, 1821 Meadowview Road, Emergency Food Distr..., El Dorado\nrow 7 : {'url': 'http://www...., 92553, 949-497-7121, 21918 Lexington Ave., Food Distribution Pr..., Calaveras\nrow 8 : {'url': 'http://www...., 93105, 714-526-0665, 970 Prospect Avenue, USDA Commodity Progr..., Butte\nrow 9 : {'url': 'http://www...., 92801, (562) 420-1311, 24712 Highway 74, Senior Food Box, Santa Barbara\n",
+    "query": "As abbreviations of column names from a table, web_lnk | zip_cd | PH | StAdr | rsrcTyp | Countr stand for",
+    "gt_label": [
+      "WEB LINK",
+      "Zip Code",
+      "PHONE",
+      "street address",
+      "Resource Type",
+      "County"
+    ],
+    "technical_name": [
+      "web_lnk",
+      "zip_cd",
+      "PH",
+      "StAdr",
+      "rsrcTyp",
+      "Countr"
+    ],
+    "difficulty": [
+      0,
+      1,
+      1,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "ivk4-ub4s",
+    "table_prompt": "column names : yr_of_levy, totl_dir_tax_rt, real_prop, avg_ann_grwth, psnl_prop\nrow 1 : 2007, 1.038051, 296325286, 10.97, 19008923\nrow 2 : 2009, 1.037694, 296325286, 7.94, 16899247\nrow 3 : 2010, 1.029754, 392197205, -0.09, 15950614\nrow 4 : 2008, 1.038541, 391747407, -0.09, 16343009\nrow 5 : 2011, 1.045354, 384126153, 9.91, 19008923\nrow 6 : 2006, 1.038666, 399640203, -0.09, 16304721\nrow 7 : 2010, 1.055733, 268163573, 1.29, 17398206\nrow 8 : 2013, 1.045354, 389768424, -0.09, 16343009\nrow 9 : 2012, 1.038666, 389768424, 9.85, 17147802\nrow 10 : 2007, 1.038895, 296325286, 1.29, 17147802\n",
+    "query": "As abbreviations of column names from a table, yr_of_levy | totl_dir_tax_rt | real_prop | avg_ann_grwth | psnl_prop stand for",
+    "gt_label": [
+      "YEAR OF LEVY",
+      "TOTAL DIRECT TAX RATE",
+      "real property",
+      "average annual growth",
+      "PERSONAL PROPERTY"
+    ],
+    "technical_name": [
+      "yr_of_levy",
+      "totl_dir_tax_rt",
+      "real_prop",
+      "avg_ann_grwth",
+      "psnl_prop"
+    ],
+    "difficulty": [
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "ejf8-ekfc",
+    "table_prompt": "column names : artst_last_nm, mural_loc, proj_addr, ArtDescr, artstFrst\nrow 1 : Davis, Exterior, 515 North Laveta Ter..., Sculptural wall inst..., Heath\nrow 2 : Henderson/Garrison, Interior, 12006 Venice Bouleva..., Installation on ceil..., Elizabeth\n",
+    "query": "As abbreviations of column names from a table, artst_last_nm | mural_loc | proj_addr | ArtDescr | artstFrst stand for",
+    "gt_label": [
+      "artist last name",
+      "MURAL LOCATION",
+      "project address",
+      "art description",
+      "artist first"
+    ],
+    "technical_name": [
+      "artst_last_nm",
+      "mural_loc",
+      "proj_addr",
+      "ArtDescr",
+      "artstFrst"
+    ],
+    "difficulty": [
+      0,
+      1,
+      1,
+      2,
+      2
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "h47n-gfuh",
+    "table_prompt": "column names : departmnt, ythPrg\nrow 1 : Disability, Play Streets\nrow 2 : City Attorney, Community Health Wor...\nrow 3 : Cultural Affairs, Head Start - Jordan ...\nrow 4 : Housing Authority of..., School Boat Tour Pro...\nrow 5 : LAPORT, K-12 Recycled Water ...\nrow 6 : Los Angeles Departme..., Head Start - Imperia...\nrow 7 : Information Technolo..., Adolescent Medicine:...\nrow 8 : Public Works - Burea..., Charter Bus Program\nrow 9 : Public Works - Board, Teens Leading Change...\nrow 10 : Disability, Los Angeles Police D...\n",
+    "query": "As abbreviations of column names from a table, departmnt | ythPrg stand for",
+    "gt_label": [
+      "department",
+      "youth program"
+    ],
+    "technical_name": [
+      "departmnt",
+      "ythPrg"
+    ],
+    "difficulty": [
+      0,
+      2
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "gfb7-edzm",
+    "table_prompt": "column names : full_addr, CATEG, LOCNM, Web\nrow 1 : 200 North Spring Str..., Art Center, McGroarty Arts Cente..., {'url': 'https://cul...\n",
+    "query": "As abbreviations of column names from a table, full_addr | CATEG | LOCNM | Web stand for",
+    "gt_label": [
+      "full address",
+      "CATEGORY",
+      "LOCATION NAME",
+      "WEBSITE"
+    ],
+    "technical_name": [
+      "full_addr",
+      "CATEG",
+      "LOCNM",
+      "Web"
+    ],
+    "difficulty": [
+      0,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "5bd5-md2c",
+    "table_prompt": "column names : mnth, SPLT, subaccnt, accnt, accnt_nr, memo\nrow 1 : 4.0, 5420 Dept. Training ..., Training Expenses, Asset, 1100.0, IACET Application fe...\nrow 2 : 2.0, 5090 Fidelity Bond/F..., Repairs and Maintenc..., Income , 5085.0, Invoice number 12683...\nrow 3 : 11.0, 5075 Auditor Fees & ..., Retained Earnings, Retained Earnings, 1005.0, Account number LOS A...\nrow 4 : 1.0, 5145. CD advisor Exp..., Salary Reim Expense, Expense , 5175.0, JTI-0313C\nrow 5 : 3.0, 1100 Transfer from A..., Repairs and Maintenc..., Income , 5091.0, invoice 11073\nrow 6 : 8.0, 5425 Equipment, Marketing & Advertis..., Expense, 5145.0, VOID 520 October 201...\n",
+    "query": "As abbreviations of column names from a table, mnth | SPLT | subaccnt | accnt | accnt_nr | memo stand for",
+    "gt_label": [
+      "month",
+      "split",
+      "subaccount",
+      "Account",
+      "account number",
+      "MEMORANDUM"
+    ],
+    "technical_name": [
+      "mnth",
+      "SPLT",
+      "subaccnt",
+      "accnt",
+      "accnt_nr",
+      "memo"
+    ],
+    "difficulty": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "is8h-jh3i",
+    "table_prompt": "column names : POPULATN, LglDbtMargn\nrow 1 : 3764062, 50996556\nrow 2 : 3866133, 60742413\nrow 3 : 3764062, 41615131\nrow 4 : 3866133, 41615131\nrow 5 : 3768645, 59306819\nrow 6 : 3792621, 50996556\nrow 7 : 3764062, 60615291\nrow 8 : 3806499, 61709397\nrow 9 : 3866133, 45816558\nrow 10 : 3781951, 41615131\n",
+    "query": "As abbreviations of column names from a table, POPULATN | LglDbtMargn stand for",
+    "gt_label": [
+      "population",
+      "legal debt margin"
+    ],
+    "technical_name": [
+      "POPULATN",
+      "LglDbtMargn"
+    ],
+    "difficulty": [
+      0,
+      2
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "ua8f-ms7p",
+    "table_prompt": "column names : Sheltr, subCateg\nrow 1 : South LA, Wildlife\nrow 2 : North Central Shelte..., Wildlife\nrow 3 : Admin, Euthanized\nrow 4 : East Valley Shelter, Junkyard Intct\nrow 5 : South LA, # of Volunteer Hrs W...\nrow 6 : Admin, Missing/Stolen/Escap...\nrow 7 : East Valley Shelter, # of Volunteer Hrs W...\n",
+    "query": "As abbreviations of column names from a table, Sheltr | subCateg stand for",
+    "gt_label": [
+      "shelter",
+      "Sub Category"
+    ],
+    "technical_name": [
+      "Sheltr",
+      "subCateg"
+    ],
+    "difficulty": [
+      0,
+      3
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "4ndk-mmc8",
+    "table_prompt": "column names : unit_txt, Indctr, srce, councl_dtrct, gndr, fscl_yr, lclty, VAL, clndr_yr, cat\nrow 1 : SHARE OF ALL OCCUPIE..., HOUSEHOLDS IN SNAP, EMPLOYMENT DEVELOPME..., 8, MALE, 1998.0, LOS ANGELES COUNTY, 8953.0, 1998.0, TAXABLE SALES\nrow 2 : SHARE OF POPULATION ..., MIX-USE PERMITS, CALIFORNIA HOMEBUILD..., 14, FEMALE, 2016.0, LOS ANGELES MSA, 260900000.0, 2013.0, HOTELS\n",
+    "query": "As abbreviations of column names from a table, unit_txt | Indctr | srce | councl_dtrct | gndr | fscl_yr | lclty | VAL | clndr_yr | cat stand for",
+    "gt_label": [
+      "unit text",
+      "Indicator",
+      "Source",
+      "council district",
+      "gender",
+      "FISCAL YEAR",
+      "Locality",
+      "VALUE",
+      "calendar year",
+      "category"
+    ],
+    "technical_name": [
+      "unit_txt",
+      "Indctr",
+      "srce",
+      "councl_dtrct",
+      "gndr",
+      "fscl_yr",
+      "lclty",
+      "VAL",
+      "clndr_yr",
+      "cat"
+    ],
+    "difficulty": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "4ndk-mmc8",
+    "table_prompt": "column names : qtrStrt, subIndctr, unitOfMsr\nrow 1 : 10-1-2012, MANUFACTURING, $\nrow 2 : 4-1-1994, LESS THAN $25,000, #\nrow 3 : 7-1-2013, TRANSPORT/WAREHOUSE, $\n",
+    "query": "As abbreviations of column names from a table, qtrStrt | subIndctr | unitOfMsr stand for",
+    "gt_label": [
+      "quarter start",
+      "sub indicator",
+      "unit of measure"
+    ],
+    "technical_name": [
+      "qtrStrt",
+      "subIndctr",
+      "unitOfMsr"
+    ],
+    "difficulty": [
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "hfus-a659",
+    "table_prompt": "column names : Amndd_revn_bdgt, revn_class_cd, rev_class_nm, revn_cltd, dept, rev_src_nm, revBgt, adptdRevBdg, REVSRCECD\nrow 1 : 285000.0, 561, OTHER CURRENT SERVIC..., 393493.92, 8, FIRE SFTY CLEAR INSP..., 5827125.0, 28587.0, 4126\nrow 2 : 18288115.64, 404, DAMAGE SETTLEMENTS, 33.61, 43, LEASES & RENTALS-OTH..., 334116.0, 5000.0, 4651\nrow 3 : -350.41, 451, LIBRARY FINES AND FE..., 868931.21, 4, EXCESSIVE FALSE ALAR..., 13153496.0, 1062446.0, 4210\nrow 4 : -1391.25, 574, COUNTY GRANTS/AGREEM..., 1736795.48, 17, CONTRIBUTION-TRUST, 910661.0, 42197.0, 5638\nrow 5 : 474658.0, 542, FRANCHISES INCOME, 1045.55, 26, BOARD APPLICATION FE..., 13153496.0, 35000.0, 3225\nrow 6 : -60811.0, 561, OTHER CURRENT SERVIC..., 4084.87, 10, INTERFD OPER TRANS-T..., 5198067.68, 78000.0, 4336\nrow 7 : 32684959.27, 465, ENGR INSPECTION & OT..., 652978.54, 48, INTERFUND BILLINGS -..., 38295.0, 109000.0, 4472\nrow 8 : 2146854.0, 328, MISCELLANEOUS REVENU..., 96.48, 14, FIRE SAFETY OFF COST..., 5198067.68, 2540316.0, 3295\nrow 9 : -14914.32, 481, SP BLDG & SAFETY SER..., 17.95, 17, REIMB OF PRIOR YEAR ..., 300000.0, 10308982.0, 5175\nrow 10 : 474658.0, 516, FRANCHISES INCOME, 721890.74, 16, SUBPOENA FEES, 36388.0, 134416.0, 5161\n",
+    "query": "As abbreviations of column names from a table, Amndd_revn_bdgt | revn_class_cd | rev_class_nm | revn_cltd | dept | rev_src_nm | revBgt | adptdRevBdg | REVSRCECD stand for",
+    "gt_label": [
+      "AMENDED REVENUE BUDGET",
+      "REVENUE CLASS CODE",
+      "Revenue Class Name",
+      "revenue collected",
+      "Department",
+      "Revenue Source Name",
+      "REVENUE BUDGET",
+      "adopted revenue budget",
+      "Revenue Source Code"
+    ],
+    "technical_name": [
+      "Amndd_revn_bdgt",
+      "revn_class_cd",
+      "rev_class_nm",
+      "revn_cltd",
+      "dept",
+      "rev_src_nm",
+      "revBgt",
+      "adptdRevBdg",
+      "REVSRCECD"
+    ],
+    "difficulty": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      3
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "tbey-u44x",
+    "table_prompt": "column names : Amnt, crdts, fiscl_yr, transctn_dt, nbhdCounc, TxnDeets, typOfPmnt\nrow 1 : 14.95, 8928.6, 2017, 2016-07-19T00:00:00...., Bel Air-Beverly Cres..., THE HOME D VAN NUYS ..., Electronic Credits\n",
+    "query": "As abbreviations of column names from a table, Amnt | crdts | fiscl_yr | transctn_dt | nbhdCounc | TxnDeets | typOfPmnt stand for",
+    "gt_label": [
+      "Amount",
+      "CREDITS",
+      "fiscal year",
+      "Transaction Date",
+      "NEIGHBORHOOD COUNCIL",
+      "Transaction Details",
+      "Type of Payment"
+    ],
+    "technical_name": [
+      "Amnt",
+      "crdts",
+      "fiscl_yr",
+      "transctn_dt",
+      "nbhdCounc",
+      "TxnDeets",
+      "typOfPmnt"
+    ],
+    "difficulty": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "yi9p-z2gr",
+    "table_prompt": "column names : class_cd, categ_cd_nm, amt, revId, CATEGCD\nrow 1 : 516.0, LICENSES AND PERMITS, 7587.04, 12_4599, 33.0\nrow 2 : 561.0, REVENUES FR OTH GOVT..., 388607.0, 10_4651, 40.0\nrow 3 : 516.0, CHARGES FOR CURRENT ..., 607509.0, 10_5301, 48.0\nrow 4 : 512.0, CHARGES FOR CURRENT ..., 263822.78, 12_4597, 53.0\nrow 5 : 530.0, CHARGES FOR CURRENT ..., 923751.75, 12_5331, 51.0\nrow 6 : 530.0, OTHER FINANCING SOUR..., 13470.81, 10_5648, 33.0\nrow 7 : 561.0, LICENSES AND PERMITS, 143511.32, 10_3683, 53.0\n",
+    "query": "As abbreviations of column names from a table, class_cd | categ_cd_nm | amt | revId | CATEGCD stand for",
+    "gt_label": [
+      "CLASS CODE",
+      "Category Code Name",
+      "Amount",
+      "revenue id",
+      "CATEGORY CODE"
+    ],
+    "technical_name": [
+      "class_cd",
+      "categ_cd_nm",
+      "amt",
+      "revId",
+      "CATEGCD"
+    ],
+    "difficulty": [
+      1,
+      1,
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "3evt-p6ht",
+    "table_prompt": "column names : chg_health_cr, chg_othr_svcs, chg_ret_trd, chg_edu_svcs, chg_wst_mgt, nbhd, chgCnstr, chg_fin_insrnc, ChgInfo, ChgMgmt\nrow 1 : -378, -10, -199, -99, -73, Angeles National For..., 0, 15.0, -197, -18\nrow 2 : -2, -189, -129, -249, -16, Chatsworth, -11, 11.0, -1, -21\nrow 3 : -46, -138, -8, -110, -131, Tarzana, -16, 24.0, -128, -19\nrow 4 : -116, -132, -14, -101, -16, Canoga Park, -12, 24.0, -362, -24\nrow 5 : -108, -57, -67, -29, -190, Temple-Beaudry, 0, 58.0, -94, -11\nrow 6 : -62, -3, -41, -135, -190, East Hollywood, -15, 62.0, -328, -28\nrow 7 : -43, -359, -22, -432, -31, St Elmo Village, -40, 4.0, -89, -16\nrow 8 : -378, -40, -111, -2, -190, Granada Hills, -59, 8.0, -748, -10\nrow 9 : -194, -50, -21, -58, -88, South Carthay, -2, 22.0, -356, -30\nrow 10 : -122, -126, -126, -346, -11, Gramercy Place, -48, 38.0, -716, -24\n",
+    "query": "As abbreviations of column names from a table, chg_health_cr | chg_othr_svcs | chg_ret_trd | chg_edu_svcs | chg_wst_mgt | nbhd | chgCnstr | chg_fin_insrnc | ChgInfo | ChgMgmt stand for",
+    "gt_label": [
+      "Change Health Care",
+      "Change Other Services",
+      "Change Retail Trade",
+      "CHANGE EDUCATIONAL SERVICES",
+      "Change Waste Management",
+      "NEIGHBORHOOD",
+      "Change Construction",
+      "Change Finance and Insurance",
+      "Change Information",
+      "Change Management"
+    ],
+    "technical_name": [
+      "chg_health_cr",
+      "chg_othr_svcs",
+      "chg_ret_trd",
+      "chg_edu_svcs",
+      "chg_wst_mgt",
+      "nbhd",
+      "chgCnstr",
+      "chg_fin_insrnc",
+      "ChgInfo",
+      "ChgMgmt"
+    ],
+    "difficulty": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "3evt-p6ht",
+    "table_prompt": "column names : ChgMfg, chgProfSrvcs, chgTrnsportatnWare, ChgWhlTrd\nrow 1 : -73, -34, -45, -5\nrow 2 : -169, -286, -78, 0\nrow 3 : -91, -444, -4, -50\nrow 4 : -44, -210, -97, -10\nrow 5 : -20, -119, -97, -9\nrow 6 : -63, -129, -39, -86\nrow 7 : -58, -5, -19, -19\nrow 8 : -114, -28, -27, -29\nrow 9 : -16, -187, -45, -76\nrow 10 : -187, -62, -106, -3\n",
+    "query": "As abbreviations of column names from a table, ChgMfg | chgProfSrvcs | chgTrnsportatnWare | ChgWhlTrd stand for",
+    "gt_label": [
+      "Change Manufacturing",
+      "Change Professional Services",
+      "Change Transportation and Warehousing",
+      "Change Wholesale Trade"
+    ],
+    "technical_name": [
+      "ChgMfg",
+      "chgProfSrvcs",
+      "chgTrnsportatnWare",
+      "ChgWhlTrd"
+    ],
+    "difficulty": [
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "29u2-qeci",
+    "table_prompt": "column names : Devlpr, pct_complt\nrow 1 : Chelsea Investment C..., 0.36\nrow 2 : GTM Holdings, LLC; W..., 0.55\nrow 3 : Western Community Ho..., 0.82\nrow 4 : Figueroa Economical ..., 0.11\nrow 5 : LINC Community Devel..., 0.89\nrow 6 : Many Mansions, a Cal..., 0.68\nrow 7 : GTM Holdings, LLC; W..., 0.3\nrow 8 : Chelsea Investment C..., 0.84\nrow 9 : Clifford Beers Housi..., 0.32\nrow 10 : MANY MANSIONS, 0.11\n",
+    "query": "As abbreviations of column names from a table, Devlpr | pct_complt stand for",
+    "gt_label": [
+      "DEVELOPER",
+      "percent complete"
+    ],
+    "technical_name": [
+      "Devlpr",
+      "pct_complt"
+    ],
+    "difficulty": [
+      1,
+      1
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "f2ec-m4t9",
+    "table_prompt": "column names : DTE, tsk, spend_cat, desc, xpndt, vndNm\nrow 1 : 2014-05-01T00:00:00...., Meeting, NC Elections, DWP lighting FOR 293..., 89.97, SMARTNFINAL306103030...\nrow 2 : 2013-12-16T00:00:00...., Website, NC Elections, DRNC- B. REIMERS W/E..., 93.91, NINA ZIPPAY\nrow 3 : 2013-10-15T00:00:00...., Elections, NC Elections, ANC-TEMP I. SANDOVAL..., 788.68, PRINTING SERVICES\nrow 4 : 2013-10-31T00:00:00...., Website Services, Operational Expense, DRNC-BAND PLAYS TO P..., 89.53, ORCHARD SUPPLY #610\nrow 5 : 2013-08-21T00:00:00...., Refreshment, Neighborhood Purpose..., AVNC-STORAGE FOR 10/..., 37.32, VESTA *T-MOBILE\nrow 6 : 2013-10-23T00:00:00...., Beautification, Community Improvemen..., BABCNC-FLAG ON POLE, 30.0, PROMOTIONAL IDEAS\n",
+    "query": "As abbreviations of column names from a table, DTE | tsk | spend_cat | desc | xpndt | vndNm stand for",
+    "gt_label": [
+      "Date",
+      "Task",
+      "Spending Category",
+      "description",
+      "expenditure",
+      "vendor name"
+    ],
+    "technical_name": [
+      "DTE",
+      "tsk",
+      "spend_cat",
+      "desc",
+      "xpndt",
+      "vndNm"
+    ],
+    "difficulty": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      2
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "9wxw-98tn",
+    "table_prompt": "column names : dt_fnd_estblshd, idl_fnd, departmntNr, endingCashBalnc, IntGnlFnd\nrow 1 : 11/2/1995, True, 22.0, 5185754.26, Not Applicable\n",
+    "query": "As abbreviations of column names from a table, dt_fnd_estblshd | idl_fnd | departmntNr | endingCashBalnc | IntGnlFnd stand for",
+    "gt_label": [
+      "Date Fund Established",
+      "Idle Fund",
+      "Department Number",
+      "Ending Cash Balance",
+      "Interest to General Fund"
+    ],
+    "technical_name": [
+      "dt_fnd_estblshd",
+      "idl_fnd",
+      "departmntNr",
+      "endingCashBalnc",
+      "IntGnlFnd"
+    ],
+    "difficulty": [
+      1,
+      1,
+      2,
+      2,
+      3
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "jwzw-nd84",
+    "table_prompt": "column names : empl_count, payCd, pay_cd_nm, qrtr, TtlAmt, totl_tm, PAYCATEG\nrow 1 : 142, AR04  , Premium Time, 16.0 H..., 4, 24159.52, 574.0, Other Pay & Adjustme...\nrow 2 : 717, VA, Step Adjustment, 3, 37436.18, 915.0, Longevity Bonus Pay\nrow 3 : 104, SKAU1, No Net Chg Corr (mis..., 1, 4121.8, 123.2, Base Pay\n",
+    "query": "As abbreviations of column names from a table, empl_count | payCd | pay_cd_nm | qrtr | TtlAmt | totl_tm | PAYCATEG stand for",
+    "gt_label": [
+      "Employee Count",
+      "PAY CODE",
+      "pay code name",
+      "Quarter",
+      "TOTAL AMOUNT",
+      "TOTAL TIME",
+      "pay category"
+    ],
+    "technical_name": [
+      "empl_count",
+      "payCd",
+      "pay_cd_nm",
+      "qrtr",
+      "TtlAmt",
+      "totl_tm",
+      "PAYCATEG"
+    ],
+    "difficulty": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "64fm-qtvn",
+    "table_prompt": "column names : lab_reprsentatve, trm, dcmnt, brgnUn\nrow 1 : LADWP Association of..., October 1, 2010 thro..., {'file_id': '-MpcKXG..., LADWP Confidential M...\nrow 2 : LADWP Dispatchers As..., October 1, 2012 thro..., {'file_id': 'sJ1sMx8..., Technical Representa...\nrow 3 : SEIU Local 721, October 1, 2005 thro..., {'file_id': 'FxxolAF..., Professional Unit\nrow 4 : IBEW Local 18, January 1, 2014 thro..., {'file_id': 'j2_EBdC..., Administrative Repre...\nrow 5 : IBEW Local 18, October 1, 2010 thro..., {'file_id': 'yP8G-10..., Security Unit\n",
+    "query": "As abbreviations of column names from a table, lab_reprsentatve | trm | dcmnt | brgnUn stand for",
+    "gt_label": [
+      "LABOR REPRESENTATIVE",
+      "Term",
+      "document",
+      "bargaining unit"
+    ],
+    "technical_name": [
+      "lab_reprsentatve",
+      "trm",
+      "dcmnt",
+      "brgnUn"
+    ],
+    "difficulty": [
+      1,
+      1,
+      1,
+      2
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "7ct3-9xz9",
+    "table_prompt": "column names : loc1\nrow 1 : {'latitude': '34.166...\nrow 2 : {'latitude': '33.885...\nrow 3 : {'latitude': '34.155...\nrow 4 : {'latitude': '34.126...\nrow 5 : {'latitude': '34.471...\nrow 6 : {'latitude': '34.447...\nrow 7 : {'latitude': '34.557...\nrow 8 : {'latitude': '34.155...\nrow 9 : {'latitude': '33.889...\nrow 10 : {'latitude': '34.066...\n",
+    "query": "As abbreviations of column names from a table, loc1 stand for",
+    "gt_label": [
+      "Location 1"
+    ],
+    "technical_name": [
+      "loc1"
+    ],
+    "difficulty": [
+      1
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "favk-g8ii",
+    "table_prompt": "column names : obj_id, Categ, cty_org_progr, emailOfOrgProgrm, phNoOrgPrg, websOfOrgProgrm, StrAddrOrgProgrm, NmOrgProgrm, ZipCdOrgnProg\nrow 1 : 72, Housing, Lawndale, dperez@lalgbtcenter...., 619-584-5777, {'url': 'http://www...., 3909 Centre St., Black AIDS Institute, 90813\nrow 2 : 84, Health, Arcadia, info@outreachcentera..., 805-495-0105, {'url': 'http://www...., 1851 Tyburn St., Emergency Overnight ..., 90813\nrow 3 : 30, Youth Program, North Hills, spa8@ph.lacounty.gov, 626-798-0706, {'url': 'http://www...., 13001 Ramona Blvd. S..., Los Angeles LGBT Cen..., 90059\nrow 4 : 16, Center, Pasadena, spa8@ph.lacounty.gov, 562-439-7755, {'url': 'http://www...., 1923 Westwood Blvd., Against The Stream B..., 90042\nrow 5 : 92, Education, Long Beach, info@pointfoundation..., 323-669-3434, {'url': 'http://www...., 11059 Sherman Way, Inspire Spiritual Co..., 90230\nrow 6 : 65, Health, Inglewood, info@everyoneisgay.c..., 323-860-2280, {'url': 'http://www...., 5149 W. Jefferson Bl..., Los Angeles County D..., 90018\nrow 7 : 52, Youth Program, Glendale, contact@colorsyouth...., 619-255-7854 x103, {'url': 'http://www...., 7501 Hollywood Blvd., Penny Lane Centers -..., 92103\nrow 8 : 79, Food, Culver City, rev.donna@icloud.com, 818-762-1133, {'url': 'http://www...., 8224 Santa Monica Bl..., Youth Emerging Stron..., 90021\nrow 9 : 79, Food, Santa Ana, gdiaz@lalgbtcenter.o..., 661-927-7433, {'url': 'http://www...., 180 E. Mission Blvd., Penny Lane Centers -..., 90029\nrow 10 : 118, Health, Glendale, info@thelavendereffe..., 323-669-3434, {'url': 'http://www...., 1220 N. Highland Ave..., GSA Network, 90038\n",
+    "query": "As abbreviations of column names from a table, obj_id | Categ | cty_org_progr | emailOfOrgProgrm | phNoOrgPrg | websOfOrgProgrm | StrAddrOrgProgrm | NmOrgProgrm | ZipCdOrgnProg stand for",
+    "gt_label": [
+      "Object ID",
+      "Category",
+      "City of Organization Program",
+      "EMAIL OF ORGANIZATION PROGRAM",
+      "PHONE NUMBER OF ORGANIZATION PROGRAM",
+      "WEBSITE OF ORGANIZATION PROGRAM",
+      "Street Address of Organization Program",
+      "name of organization program",
+      "zip code of organization program"
+    ],
+    "technical_name": [
+      "obj_id",
+      "Categ",
+      "cty_org_progr",
+      "emailOfOrgProgrm",
+      "phNoOrgPrg",
+      "websOfOrgProgrm",
+      "StrAddrOrgProgrm",
+      "NmOrgProgrm",
+      "ZipCdOrgnProg"
+    ],
+    "difficulty": [
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      3,
+      3,
+      3
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "4i3e-krmq",
+    "table_prompt": "column names : raw_dt, DocNum, doc_ttl, audtDoc, audExhbtNum\nrow 1 : {'url': 'https://con..., 6, JSI Expenditures Rep..., {'file_id': 'PW8aOhs..., II.11\nrow 2 : {'url': 'https://con..., 6, JSI/JTI Meeting and ..., {'file_id': 'WnhWhGX..., Appendix B\nrow 3 : {'url': 'https://con..., 3, JTI/JSI Credit Card ..., {'file_id': 'AbZk7fD..., II.11\n",
+    "query": "As abbreviations of column names from a table, raw_dt | DocNum | doc_ttl | audtDoc | audExhbtNum stand for",
+    "gt_label": [
+      "Raw Data",
+      "Document Number",
+      "Document Title",
+      "Audit Document",
+      "Audit Exhibit Number"
+    ],
+    "technical_name": [
+      "raw_dt",
+      "DocNum",
+      "doc_ttl",
+      "audtDoc",
+      "audExhbtNum"
+    ],
+    "difficulty": [
+      1,
+      1,
+      1,
+      2,
+      2
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "9u4y-6adc",
+    "table_prompt": "column names : srce, Typ, NR, fullAddr, mapOrdr\nrow 1 : City of Los Angeles, Government, 1655, 600 State Drive, Los..., 6\nrow 2 : City of Los Angeles, Place of Worship, 4395, 600 State Drive, Los..., 5\nrow 3 : TIGER/Line\u00ae dataset ..., Government, 5000, 4998 Obama Boulevard..., 1\n",
+    "query": "As abbreviations of column names from a table, srce | Typ | NR | fullAddr | mapOrdr stand for",
+    "gt_label": [
+      "Source",
+      "Type",
+      "number",
+      "Full Address",
+      "Map Order"
+    ],
+    "technical_name": [
+      "srce",
+      "Typ",
+      "NR",
+      "fullAddr",
+      "mapOrdr"
+    ],
+    "difficulty": [
+      1,
+      1,
+      1,
+      2,
+      2
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "xudi-3xuz",
+    "table_prompt": "column names : DSTRCT, WebLnk\nrow 1 : LOCAL DISTRICT WEST, {'url': 'https://www...\nrow 2 : LOCAL DISTRICT NORTH..., {'url': 'https://rfk...\nrow 3 : LOCAL DISTRICT NORTH..., {'url': 'https://dym...\nrow 4 : LOCAL DISTRICT NORTH..., {'url': 'https://www...\nrow 5 : LOCAL DISTRICT EAST, {'url': 'https://cms...\nrow 6 : LOCAL DISTRICT SOUTH, {'url': 'https://www...\n",
+    "query": "As abbreviations of column names from a table, DSTRCT | WebLnk stand for",
+    "gt_label": [
+      "district",
+      "WEB LINK"
+    ],
+    "technical_name": [
+      "DSTRCT",
+      "WebLnk"
+    ],
+    "difficulty": [
+      1,
+      2
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "ucfm-mnmk",
+    "table_prompt": "column names : jan_31_csh_blnc, fnd_no\nrow 1 : 207.0, 48K\nrow 2 : 14491.0, 397\nrow 3 : 50155.0, 443\nrow 4 : 9804.0, 61H\nrow 5 : 50155.0, 583\nrow 6 : 2827.0, 297\nrow 7 : 18795.0, 864\nrow 8 : 4559.0, 404\nrow 9 : 18795.0, 358\nrow 10 : 46102.0, 49S\n",
+    "query": "As abbreviations of column names from a table, jan_31_csh_blnc | fnd_no stand for",
+    "gt_label": [
+      "january 31 cash balance",
+      "Fund Number"
+    ],
+    "technical_name": [
+      "jan_31_csh_blnc",
+      "fnd_no"
+    ],
+    "difficulty": [
+      1,
+      3
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "b9gd-twyi",
+    "table_prompt": "column names : chg_typ\nrow 1 : Expenses\nrow 2 : Program Revenues\nrow 3 : Program Revenues\n",
+    "query": "As abbreviations of column names from a table, chg_typ stand for",
+    "gt_label": [
+      "CHANGE TYPE"
+    ],
+    "technical_name": [
+      "chg_typ"
+    ],
+    "difficulty": [
+      1
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "3n4d-kff3",
+    "table_prompt": "column names : HRS, store_nm\nrow 1 : Tuesday & Thursdays,..., Target\nrow 2 : \u201cSeniors Only\u201d shopp..., Stater Bros Market\nrow 3 : 7am - 8am, open to s..., NorthGate Market\nrow 4 : 7AM - 8AM for Senior..., Vons\nrow 5 : 7AM - 8 AM for Senio..., Costco\nrow 6 : 7am - 8am, open to s..., Stater Bros Market\nrow 7 : 7am to 8am; Seniors,..., NorthGate Market\nrow 8 : 8:30 AM - 9:30 AM on..., Trader Joe's\nrow 9 : Guests 60+ can start..., Gelsons\nrow 10 : 7AM - 8 AM for Senio..., Smart & Final\n",
+    "query": "As abbreviations of column names from a table, HRS | store_nm stand for",
+    "gt_label": [
+      "HOURS",
+      "Store"
+    ],
+    "technical_name": [
+      "HRS",
+      "store_nm"
+    ],
+    "difficulty": [
+      1,
+      2
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "5gc4-smjq",
+    "table_prompt": "column names : proj_addr\nrow 1 : 538 602 & 717 W 81st...\nrow 2 : 4115 Glencoe Avenue\nrow 3 : 6651 Haskell Avenue\nrow 4 : 11638 Riverside Driv...\nrow 5 : 7408 Alabama Avenue\nrow 6 : 14646 Dickens Street\nrow 7 : 950 S Flower Street\nrow 8 : 1726 N Kenmore Avenu...\nrow 9 : 8318 - 8324 S Main S...\nrow 10 : 2006 W Sunset Boulev...\n",
+    "query": "As abbreviations of column names from a table, proj_addr stand for",
+    "gt_label": [
+      "Project Address"
+    ],
+    "technical_name": [
+      "proj_addr"
+    ],
+    "difficulty": [
+      1
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "kxry-yh96",
+    "table_prompt": "column names : transctn_det\nrow 1 : BEST BUY M BURBANK C...\nrow 2 : NO. 8 VALL NORTH HIL...\nrow 3 : GOOGLE *SV CC GOOGLE...\nrow 4 : LLOYD STAFFING ONLIN...\nrow 5 : GOOGLE *SV CC GOOGLE...\nrow 6 : FRIENDS OF THIRD ONL...\nrow 7 : THE HOME D ALHAMBRA ...\nrow 8 : OFFICE DEP WOODLAND ...\nrow 9 : OLD SICILY NORTH HOL...\nrow 10 : LAKESIDE C ENCINO CA...\n",
+    "query": "As abbreviations of column names from a table, transctn_det stand for",
+    "gt_label": [
+      "Transaction Detail"
+    ],
+    "technical_name": [
+      "transctn_det"
+    ],
+    "difficulty": [
+      1
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "tvr8-ze2a",
+    "table_prompt": "column names : Actv\nrow 1 : Senior Center\nrow 2 : Zoo\nrow 3 : Horseback Riding\nrow 4 : Griffith Observatory\nrow 5 : Park\nrow 6 : Camping\nrow 7 : Playgrounds\nrow 8 : Garden\nrow 9 : Dog Park\nrow 10 : Dog Park\n",
+    "query": "As abbreviations of column names from a table, Actv stand for",
+    "gt_label": [
+      "ACTIVITY"
+    ],
+    "technical_name": [
+      "Actv"
+    ],
+    "difficulty": [
+      1
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "c85w-qum2",
+    "table_prompt": "column names : ACT, UN, tgt\nrow 1 : 3049.0, No. of Poles Replace..., 6414.0\nrow 2 : 434.0, No. of Cross Arms Re..., 4125.0\nrow 3 : 1993.0, Percentage, 5250.0\nrow 4 : 6304.6, Gallons Per Capita D..., 2625.0\nrow 5 : 6304.6, No. of Cross Arms Re..., 3500.0\nrow 6 : 357.0, Gallons Per Capita D..., 5730.0\nrow 7 : 274.0, Percentage, 8247.0\n",
+    "query": "As abbreviations of column names from a table, ACT | UN | tgt stand for",
+    "gt_label": [
+      "Actual",
+      "Unit",
+      "target"
+    ],
+    "technical_name": [
+      "ACT",
+      "UN",
+      "tgt"
+    ],
+    "difficulty": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "6k96-anmy",
+    "table_prompt": "column names : cd, payLvl\nrow 1 : H3, -3\nrow 2 : Dog Trainr, %\nrow 3 : MLU Cpt2, -3\nrow 4 : DX, 8\nrow 5 : W2, %\nrow 6 : W2, 2\nrow 7 : EA, 2\nrow 8 : EMT Engr, 1\nrow 9 : BO, 5\nrow 10 : PS, 5\n",
+    "query": "As abbreviations of column names from a table, cd | payLvl stand for",
+    "gt_label": [
+      "CODE",
+      "PAY LEVEL"
+    ],
+    "technical_name": [
+      "cd",
+      "payLvl"
+    ],
+    "difficulty": [
+      1,
+      2
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "p7m5-ji9u",
+    "table_prompt": "column names : nm, telNum\nrow 1 : Van Nuys Community P..., (213) 486-1000\nrow 2 : Council District 12:..., Report all emergenci...\nrow 3 : Los Angeles Fire Dep..., (310) 482-6334\nrow 4 : Los Angeles Fire Dep..., (213) 972-2971\nrow 5 : Los Angeles Fire Dep..., (323) 846-6547\nrow 6 : Van Nuys Community P..., (818) 374-9500\nrow 7 : Los Angeles Fire Dep..., (213) 473-0476\nrow 8 : Los Angeles Fire Dep..., (323) 226-1646\nrow 9 : Los Angeles Fire Dep..., (213) 485-2582\nrow 10 : Los Angeles Fire Dep..., (818) 756-8409\n",
+    "query": "As abbreviations of column names from a table, nm | telNum stand for",
+    "gt_label": [
+      "NAME",
+      "TELEPHONE NUMBER"
+    ],
+    "technical_name": [
+      "nm",
+      "telNum"
+    ],
+    "difficulty": [
+      1,
+      1
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "uztv-ve9b",
+    "table_prompt": "column names : ph_nr\nrow 1 : (213) 384-2151\nrow 2 : (323) 939-4716\nrow 3 : (818) 346-5554\nrow 4 : (818) 470-1480\nrow 5 : (213) 609-3101\nrow 6 : (323) 567-1439\nrow 7 : (323) 251-3566\nrow 8 : (323) 357-9600\nrow 9 : (323) 726-7998\nrow 10 : (310) 519-6091\n",
+    "query": "As abbreviations of column names from a table, ph_nr stand for",
+    "gt_label": [
+      "phone number"
+    ],
+    "technical_name": [
+      "ph_nr"
+    ],
+    "difficulty": [
+      1
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "2xwp-pqjt",
+    "table_prompt": "column names : amt_collct_dt, collDt\nrow 1 : 1014975.0, 102.38\nrow 2 : 753702.0, 104.98\nrow 3 : 1058813.0, 103.85\nrow 4 : 1033254.0, 102.38\nrow 5 : 753702.0, 96.64\nrow 6 : 895628.0, 96.03\nrow 7 : 1071373.0, 104.98\nrow 8 : 1071373.0, 102.38\nrow 9 : 1058813.0, 103.85\nrow 10 : 1014975.0, 96.64\n",
+    "query": "As abbreviations of column names from a table, amt_collct_dt | collDt stand for",
+    "gt_label": [
+      "Amount Collected to Date",
+      "COLLECTED TO DATE"
+    ],
+    "technical_name": [
+      "amt_collct_dt",
+      "collDt"
+    ],
+    "difficulty": [
+      2,
+      2
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "uyzw-yi8n",
+    "table_prompt": "column names : budgUncmtAmt, encumbrncAmt, AdtBdgtAmt, TotlBdgt\nrow 1 : 2843252.42, 1214234.0, 1209574, 9446652.0\nrow 2 : 113336.7, 398.35, 338177, 1670236.4\nrow 3 : 863197.23, 3360.0, 366651, 22991.9\nrow 4 : 4850.0, 398.35, 7093296, 157906.16\nrow 5 : 311598.49, 21585817.8, 24845, 2903.75\nrow 6 : 5836.95, 322000.0, 62503, 177865.0\nrow 7 : 3901.0, 38811.06, 2030693, 29028.0\nrow 8 : 293406.25, 159053.0, 2500000, 202943.37\nrow 9 : 336766.0, 131993.0, 488591, 28268.45\nrow 10 : 412.0, 2995.0, 363483, 84306.0\n",
+    "query": "As abbreviations of column names from a table, budgUncmtAmt | encumbrncAmt | AdtBdgtAmt | TotlBdgt stand for",
+    "gt_label": [
+      "Budget Uncommitted Amount",
+      "ENCUMBRANCE AMOUNT",
+      "adopted budget amount",
+      "total budget"
+    ],
+    "technical_name": [
+      "budgUncmtAmt",
+      "encumbrncAmt",
+      "AdtBdgtAmt",
+      "TotlBdgt"
+    ],
+    "difficulty": [
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "6cbx-e2fd",
+    "table_prompt": "column names : frcastTyp\nrow 1 : Projected\nrow 2 : Actual\n",
+    "query": "As abbreviations of column names from a table, frcastTyp stand for",
+    "gt_label": [
+      "Forecast Type"
+    ],
+    "technical_name": [
+      "frcastTyp"
+    ],
+    "difficulty": [
+      2
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "5ru3-n8sy",
+    "table_prompt": "column names : invcDt, invcID, paymnttDte, recptDt, chckNum, vndrNm, vendrID\nrow 1 : 2013-11-18T00:00:00...., 30697, 2013-12-30T00:00:00...., 2013-11-11T00:00:00...., 431283, Robertson Honda, 39119\nrow 2 : 2012-10-23T00:00:00...., 02 166870, 2013-12-31T00:00:00...., 2012-12-27T00:00:00...., 431253, Warren Distributing ..., 42524\nrow 3 : 2012-12-06T00:00:00...., 245193, 2012-12-28T00:00:00...., 2013-12-20T00:00:00...., 431278, Club Car Inc, 26019\nrow 4 : 2013-12-20T00:00:00...., 397704, 2013-12-27T00:00:00...., 2013-12-03T00:00:00...., 431104, United Specialties, 15391\nrow 5 : 2013-11-06T00:00:00...., 496278810-072, 2012-12-28T00:00:00...., 2013-08-22T00:00:00...., 431157, Cdw Government Inc, 36891\n",
+    "query": "As abbreviations of column names from a table, invcDt | invcID | paymnttDte | recptDt | chckNum | vndrNm | vendrID stand for",
+    "gt_label": [
+      "INVOICE DATE",
+      "INVOICE ID",
+      "PAYMENT DATE",
+      "Receipt Date",
+      "check number",
+      "vendor name",
+      "vendor id"
+    ],
+    "technical_name": [
+      "invcDt",
+      "invcID",
+      "paymnttDte",
+      "recptDt",
+      "chckNum",
+      "vndrNm",
+      "vendrID"
+    ],
+    "difficulty": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      3
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "irca-ezpb",
+    "table_prompt": "column names : sale_nrgy_ttl, sales_enrgy_comrcl_industrl, SalesEnergResidntl\nrow 1 : 26190, 15541, 7664\nrow 2 : 26488, 15705, 7316\nrow 3 : 25443, 15485, 7316\nrow 4 : 24831, 15485, 7568\nrow 5 : 25873, 16482, 7316\nrow 6 : 24615, 16482, 7316\nrow 7 : 26190, 15717, 7063\nrow 8 : 26352, 16291, 7063\nrow 9 : 25873, 15717, 7819\n",
+    "query": "As abbreviations of column names from a table, sale_nrgy_ttl | sales_enrgy_comrcl_industrl | SalesEnergResidntl stand for",
+    "gt_label": [
+      "SALES OF ENERGY TOTAL",
+      "sales of energy commercial and industrial",
+      "sales of energy residential"
+    ],
+    "technical_name": [
+      "sale_nrgy_ttl",
+      "sales_enrgy_comrcl_industrl",
+      "SalesEnergResidntl"
+    ],
+    "difficulty": [
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "table_partition": "la_opendata",
+    "table_id": "2j43-fbmc",
+    "table_prompt": "column names : trust_nm\nrow 1 : JTI\nrow 2 : JSI\n",
+    "query": "As abbreviations of column names from a table, trust_nm stand for",
+    "gt_label": [
+      "Trust"
+    ],
+    "technical_name": [
+      "trust_nm"
+    ],
+    "difficulty": [
+      2
+    ]
+  }
+]
